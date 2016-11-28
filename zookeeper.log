@@ -1,0 +1,820 @@
+2016-11-27 19:02:06,006 [myid:] - INFO  [main:Environment@97] - Client environment:zookeeper.version=3.3.1-942149, built on 05/07/2010 17:14 GMT
+2016-11-27 19:02:06,011 [myid:] - INFO  [main:Environment@97] - Client environment:host.name=DESKTOP-GEJKOL3.Home
+2016-11-27 19:02:06,011 [myid:] - INFO  [main:Environment@97] - Client environment:java.version=1.8.0_111
+2016-11-27 19:02:06,011 [myid:] - INFO  [main:Environment@97] - Client environment:java.vendor=Oracle Corporation
+2016-11-27 19:02:06,013 [myid:] - INFO  [main:Environment@97] - Client environment:java.home=C:\Program Files\Java\jre1.8.0_111
+2016-11-27 19:02:06,075 [myid:] - INFO  [main:Environment@97] - Client environment:java.class.path=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC\bin;C:\Users\guilhermeosaka\Desktop\zookeeper.jar;C:\Users\guilhermeosaka\Desktop\log4j-1.2.17.jar
+2016-11-27 19:02:06,076 [myid:] - INFO  [main:Environment@97] - Client environment:java.library.path=C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Users\guilhermeosaka\AppData\Local\Microsoft\WindowsApps;;C:\Windows\system32;;.
+2016-11-27 19:02:06,076 [myid:] - INFO  [main:Environment@97] - Client environment:java.io.tmpdir=C:\Users\GUILHE~1\AppData\Local\Temp\
+2016-11-27 19:02:06,076 [myid:] - INFO  [main:Environment@97] - Client environment:java.compiler=<NA>
+2016-11-27 19:02:06,076 [myid:] - INFO  [main:Environment@97] - Client environment:os.name=Windows 10
+2016-11-27 19:02:06,076 [myid:] - INFO  [main:Environment@97] - Client environment:os.arch=amd64
+2016-11-27 19:02:06,076 [myid:] - INFO  [main:Environment@97] - Client environment:os.version=10.0
+2016-11-27 19:02:06,076 [myid:] - INFO  [main:Environment@97] - Client environment:user.name=guilhermeosaka
+2016-11-27 19:02:06,076 [myid:] - INFO  [main:Environment@97] - Client environment:user.home=C:\Users\guilhermeosaka
+2016-11-27 19:02:06,077 [myid:] - INFO  [main:Environment@97] - Client environment:user.dir=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC
+2016-11-27 19:02:06,078 [myid:] - INFO  [main:ZooKeeper@373] - Initiating client connection, connectString=localhost sessionTimeout=3600 watcher=Connector$1@37a71e93
+2016-11-27 19:02:06,082 [myid:] - DEBUG [main:ClientCnxn@96] - zookeeper.disableAutoWatchReset is false
+2016-11-27 19:02:06,213 [myid:] - INFO  [main-SendThread():ClientCnxn$SendThread@1000] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181
+2016-11-27 19:02:06,216 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@908] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2016-11-27 19:02:06,218 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@955] - Session establishment request sent on localhost/0:0:0:0:0:0:0:1:2181
+2016-11-27 19:02:06,270 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@701] - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x158a787a1260002, negotiated timeout = 4000
+2016-11-27 19:02:06,303 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@797] - Reading reply sessionid:0x158a787a1260002, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,8,0  request:: '/caminho,,v{s{31,s{'world,'anyone}}},1  response:: '/caminho 
+2016-11-27 19:04:37,493 [myid:] - INFO  [main:Environment@97] - Client environment:zookeeper.version=3.3.1-942149, built on 05/07/2010 17:14 GMT
+2016-11-27 19:04:37,497 [myid:] - INFO  [main:Environment@97] - Client environment:host.name=DESKTOP-GEJKOL3.Home
+2016-11-27 19:04:37,498 [myid:] - INFO  [main:Environment@97] - Client environment:java.version=1.8.0_111
+2016-11-27 19:04:37,498 [myid:] - INFO  [main:Environment@97] - Client environment:java.vendor=Oracle Corporation
+2016-11-27 19:04:37,500 [myid:] - INFO  [main:Environment@97] - Client environment:java.home=C:\Program Files\Java\jre1.8.0_111
+2016-11-27 19:04:37,500 [myid:] - INFO  [main:Environment@97] - Client environment:java.class.path=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC\bin;C:\Users\guilhermeosaka\Desktop\zookeeper.jar;C:\Users\guilhermeosaka\Desktop\log4j-1.2.17.jar
+2016-11-27 19:04:37,500 [myid:] - INFO  [main:Environment@97] - Client environment:java.library.path=C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Users\guilhermeosaka\AppData\Local\Microsoft\WindowsApps;;C:\Windows\system32;;.
+2016-11-27 19:04:37,500 [myid:] - INFO  [main:Environment@97] - Client environment:java.io.tmpdir=C:\Users\GUILHE~1\AppData\Local\Temp\
+2016-11-27 19:04:37,500 [myid:] - INFO  [main:Environment@97] - Client environment:java.compiler=<NA>
+2016-11-27 19:04:37,501 [myid:] - INFO  [main:Environment@97] - Client environment:os.name=Windows 10
+2016-11-27 19:04:37,501 [myid:] - INFO  [main:Environment@97] - Client environment:os.arch=amd64
+2016-11-27 19:04:37,501 [myid:] - INFO  [main:Environment@97] - Client environment:os.version=10.0
+2016-11-27 19:04:37,501 [myid:] - INFO  [main:Environment@97] - Client environment:user.name=guilhermeosaka
+2016-11-27 19:04:37,501 [myid:] - INFO  [main:Environment@97] - Client environment:user.home=C:\Users\guilhermeosaka
+2016-11-27 19:04:37,501 [myid:] - INFO  [main:Environment@97] - Client environment:user.dir=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC
+2016-11-27 19:04:37,503 [myid:] - INFO  [main:ZooKeeper@373] - Initiating client connection, connectString=localhost sessionTimeout=3600 watcher=Connector$1@37a71e93
+2016-11-27 19:04:37,506 [myid:] - DEBUG [main:ClientCnxn@96] - zookeeper.disableAutoWatchReset is false
+2016-11-27 19:04:37,645 [myid:] - INFO  [main-SendThread():ClientCnxn$SendThread@1000] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181
+2016-11-27 19:04:37,647 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@908] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2016-11-27 19:04:37,650 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@955] - Session establishment request sent on localhost/0:0:0:0:0:0:0:1:2181
+2016-11-27 19:04:37,732 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@701] - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x158a787a1260003, negotiated timeout = 4000
+2016-11-27 19:04:37,783 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@797] - Reading reply sessionid:0x158a787a1260003, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,11,0  request:: '/caminho,,v{s{31,s{'world,'anyone}}},1  response:: '/caminho 
+2016-11-27 19:07:04,282 [myid:] - INFO  [main:Environment@97] - Client environment:zookeeper.version=3.3.1-942149, built on 05/07/2010 17:14 GMT
+2016-11-27 19:07:04,288 [myid:] - INFO  [main:Environment@97] - Client environment:host.name=DESKTOP-GEJKOL3.Home
+2016-11-27 19:07:04,288 [myid:] - INFO  [main:Environment@97] - Client environment:java.version=1.8.0_111
+2016-11-27 19:07:04,288 [myid:] - INFO  [main:Environment@97] - Client environment:java.vendor=Oracle Corporation
+2016-11-27 19:07:04,290 [myid:] - INFO  [main:Environment@97] - Client environment:java.home=C:\Program Files\Java\jre1.8.0_111
+2016-11-27 19:07:04,290 [myid:] - INFO  [main:Environment@97] - Client environment:java.class.path=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC\bin;C:\Users\guilhermeosaka\Desktop\zookeeper.jar;C:\Users\guilhermeosaka\Desktop\log4j-1.2.17.jar
+2016-11-27 19:07:04,290 [myid:] - INFO  [main:Environment@97] - Client environment:java.library.path=C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Users\guilhermeosaka\AppData\Local\Microsoft\WindowsApps;;C:\Windows\system32;;.
+2016-11-27 19:07:04,290 [myid:] - INFO  [main:Environment@97] - Client environment:java.io.tmpdir=C:\Users\GUILHE~1\AppData\Local\Temp\
+2016-11-27 19:07:04,291 [myid:] - INFO  [main:Environment@97] - Client environment:java.compiler=<NA>
+2016-11-27 19:07:04,291 [myid:] - INFO  [main:Environment@97] - Client environment:os.name=Windows 10
+2016-11-27 19:07:04,291 [myid:] - INFO  [main:Environment@97] - Client environment:os.arch=amd64
+2016-11-27 19:07:04,291 [myid:] - INFO  [main:Environment@97] - Client environment:os.version=10.0
+2016-11-27 19:07:04,291 [myid:] - INFO  [main:Environment@97] - Client environment:user.name=guilhermeosaka
+2016-11-27 19:07:04,291 [myid:] - INFO  [main:Environment@97] - Client environment:user.home=C:\Users\guilhermeosaka
+2016-11-27 19:07:04,291 [myid:] - INFO  [main:Environment@97] - Client environment:user.dir=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC
+2016-11-27 19:07:04,293 [myid:] - INFO  [main:ZooKeeper@373] - Initiating client connection, connectString=localhost sessionTimeout=3600 watcher=Connector$1@37a71e93
+2016-11-27 19:07:04,297 [myid:] - DEBUG [main:ClientCnxn@96] - zookeeper.disableAutoWatchReset is false
+2016-11-27 19:07:04,434 [myid:] - INFO  [main-SendThread():ClientCnxn$SendThread@1000] - Opening socket connection to server localhost/127.0.0.1:2181
+2016-11-27 19:07:04,436 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@908] - Socket connection established to localhost/127.0.0.1:2181, initiating session
+2016-11-27 19:07:04,439 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@955] - Session establishment request sent on localhost/127.0.0.1:2181
+2016-11-27 19:07:04,533 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@701] - Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x158a787a1260004, negotiated timeout = 4000
+2016-11-27 19:07:04,539 [myid:] - ERROR [main-EventThread:ClientCnxn$EventThread@490] - Error while calling watcher 
+java.lang.IllegalMonitorStateException
+	at java.lang.Object.wait(Native Method)
+	at Connector$1.process(Connector.java:32)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:488)
+2016-11-27 19:07:04,564 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@797] - Reading reply sessionid:0x158a787a1260004, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,14,0  request:: '/caminho,,v{s{31,s{'world,'anyone}}},1  response:: '/caminho 
+2016-11-27 19:08:04,545 [myid:] - INFO  [main:Environment@97] - Client environment:zookeeper.version=3.3.1-942149, built on 05/07/2010 17:14 GMT
+2016-11-27 19:08:04,550 [myid:] - INFO  [main:Environment@97] - Client environment:host.name=DESKTOP-GEJKOL3.Home
+2016-11-27 19:08:04,551 [myid:] - INFO  [main:Environment@97] - Client environment:java.version=1.8.0_111
+2016-11-27 19:08:04,551 [myid:] - INFO  [main:Environment@97] - Client environment:java.vendor=Oracle Corporation
+2016-11-27 19:08:04,553 [myid:] - INFO  [main:Environment@97] - Client environment:java.home=C:\Program Files\Java\jre1.8.0_111
+2016-11-27 19:08:04,553 [myid:] - INFO  [main:Environment@97] - Client environment:java.class.path=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC\bin;C:\Users\guilhermeosaka\Desktop\zookeeper.jar;C:\Users\guilhermeosaka\Desktop\log4j-1.2.17.jar
+2016-11-27 19:08:04,553 [myid:] - INFO  [main:Environment@97] - Client environment:java.library.path=C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Users\guilhermeosaka\AppData\Local\Microsoft\WindowsApps;;C:\Windows\system32;;.
+2016-11-27 19:08:04,554 [myid:] - INFO  [main:Environment@97] - Client environment:java.io.tmpdir=C:\Users\GUILHE~1\AppData\Local\Temp\
+2016-11-27 19:08:04,554 [myid:] - INFO  [main:Environment@97] - Client environment:java.compiler=<NA>
+2016-11-27 19:08:04,554 [myid:] - INFO  [main:Environment@97] - Client environment:os.name=Windows 10
+2016-11-27 19:08:04,554 [myid:] - INFO  [main:Environment@97] - Client environment:os.arch=amd64
+2016-11-27 19:08:04,554 [myid:] - INFO  [main:Environment@97] - Client environment:os.version=10.0
+2016-11-27 19:08:04,554 [myid:] - INFO  [main:Environment@97] - Client environment:user.name=guilhermeosaka
+2016-11-27 19:08:04,554 [myid:] - INFO  [main:Environment@97] - Client environment:user.home=C:\Users\guilhermeosaka
+2016-11-27 19:08:04,555 [myid:] - INFO  [main:Environment@97] - Client environment:user.dir=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC
+2016-11-27 19:08:04,556 [myid:] - INFO  [main:ZooKeeper@373] - Initiating client connection, connectString=localhost sessionTimeout=3600 watcher=Connector$1@37a71e93
+2016-11-27 19:08:04,561 [myid:] - DEBUG [main:ClientCnxn@96] - zookeeper.disableAutoWatchReset is false
+2016-11-27 19:08:04,729 [myid:] - INFO  [main-SendThread():ClientCnxn$SendThread@1000] - Opening socket connection to server localhost/127.0.0.1:2181
+2016-11-27 19:08:04,732 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@908] - Socket connection established to localhost/127.0.0.1:2181, initiating session
+2016-11-27 19:08:04,735 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@955] - Session establishment request sent on localhost/127.0.0.1:2181
+2016-11-27 19:08:04,867 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@701] - Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x158a787a1260005, negotiated timeout = 4000
+2016-11-27 19:08:04,952 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@797] - Reading reply sessionid:0x158a787a1260005, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,17,0  request:: '/caminho,,v{s{31,s{'world,'anyone}}},1  response:: '/caminho 
+2016-11-27 19:33:39,074 [myid:] - INFO  [main:Environment@97] - Client environment:zookeeper.version=3.3.1-942149, built on 05/07/2010 17:14 GMT
+2016-11-27 19:33:39,078 [myid:] - INFO  [main:Environment@97] - Client environment:host.name=DESKTOP-GEJKOL3.Home
+2016-11-27 19:33:39,078 [myid:] - INFO  [main:Environment@97] - Client environment:java.version=1.8.0_111
+2016-11-27 19:33:39,079 [myid:] - INFO  [main:Environment@97] - Client environment:java.vendor=Oracle Corporation
+2016-11-27 19:33:39,081 [myid:] - INFO  [main:Environment@97] - Client environment:java.home=C:\Program Files\Java\jre1.8.0_111
+2016-11-27 19:33:39,081 [myid:] - INFO  [main:Environment@97] - Client environment:java.class.path=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC\bin;C:\Users\guilhermeosaka\Desktop\zookeeper.jar;C:\Users\guilhermeosaka\Desktop\log4j-1.2.17.jar
+2016-11-27 19:33:39,081 [myid:] - INFO  [main:Environment@97] - Client environment:java.library.path=C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Users\guilhermeosaka\AppData\Local\Microsoft\WindowsApps;;C:\Windows\system32;;.
+2016-11-27 19:33:39,082 [myid:] - INFO  [main:Environment@97] - Client environment:java.io.tmpdir=C:\Users\GUILHE~1\AppData\Local\Temp\
+2016-11-27 19:33:39,082 [myid:] - INFO  [main:Environment@97] - Client environment:java.compiler=<NA>
+2016-11-27 19:33:39,082 [myid:] - INFO  [main:Environment@97] - Client environment:os.name=Windows 10
+2016-11-27 19:33:39,082 [myid:] - INFO  [main:Environment@97] - Client environment:os.arch=amd64
+2016-11-27 19:33:39,082 [myid:] - INFO  [main:Environment@97] - Client environment:os.version=10.0
+2016-11-27 19:33:39,082 [myid:] - INFO  [main:Environment@97] - Client environment:user.name=guilhermeosaka
+2016-11-27 19:33:39,082 [myid:] - INFO  [main:Environment@97] - Client environment:user.home=C:\Users\guilhermeosaka
+2016-11-27 19:33:39,083 [myid:] - INFO  [main:Environment@97] - Client environment:user.dir=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC
+2016-11-27 19:33:39,084 [myid:] - INFO  [main:ZooKeeper@373] - Initiating client connection, connectString=localhost sessionTimeout=3600 watcher=Broker$1@37a71e93
+2016-11-27 19:33:39,087 [myid:] - DEBUG [main:ClientCnxn@96] - zookeeper.disableAutoWatchReset is false
+2016-11-27 19:33:39,224 [myid:] - INFO  [main-SendThread():ClientCnxn$SendThread@1000] - Opening socket connection to server localhost/127.0.0.1:2181
+2016-11-27 19:33:39,226 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@908] - Socket connection established to localhost/127.0.0.1:2181, initiating session
+2016-11-27 19:33:39,229 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@955] - Session establishment request sent on localhost/127.0.0.1:2181
+2016-11-27 19:33:39,586 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@701] - Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x158a787a1260006, negotiated timeout = 4000
+2016-11-27 19:33:39,652 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@797] - Reading reply sessionid:0x158a787a1260006, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,20,0  request:: '/caminho,,v{s{31,s{'world,'anyone}}},1  response:: '/caminho 
+2016-11-27 19:34:17,669 [myid:] - INFO  [main:Environment@97] - Client environment:zookeeper.version=3.3.1-942149, built on 05/07/2010 17:14 GMT
+2016-11-27 19:34:17,673 [myid:] - INFO  [main:Environment@97] - Client environment:host.name=DESKTOP-GEJKOL3.Home
+2016-11-27 19:34:17,673 [myid:] - INFO  [main:Environment@97] - Client environment:java.version=1.8.0_111
+2016-11-27 19:34:17,673 [myid:] - INFO  [main:Environment@97] - Client environment:java.vendor=Oracle Corporation
+2016-11-27 19:34:17,675 [myid:] - INFO  [main:Environment@97] - Client environment:java.home=C:\Program Files\Java\jre1.8.0_111
+2016-11-27 19:34:17,675 [myid:] - INFO  [main:Environment@97] - Client environment:java.class.path=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC\bin;C:\Users\guilhermeosaka\Desktop\zookeeper.jar;C:\Users\guilhermeosaka\Desktop\log4j-1.2.17.jar
+2016-11-27 19:34:17,676 [myid:] - INFO  [main:Environment@97] - Client environment:java.library.path=C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Users\guilhermeosaka\AppData\Local\Microsoft\WindowsApps;;C:\Windows\system32;;.
+2016-11-27 19:34:17,676 [myid:] - INFO  [main:Environment@97] - Client environment:java.io.tmpdir=C:\Users\GUILHE~1\AppData\Local\Temp\
+2016-11-27 19:34:17,676 [myid:] - INFO  [main:Environment@97] - Client environment:java.compiler=<NA>
+2016-11-27 19:34:17,676 [myid:] - INFO  [main:Environment@97] - Client environment:os.name=Windows 10
+2016-11-27 19:34:17,676 [myid:] - INFO  [main:Environment@97] - Client environment:os.arch=amd64
+2016-11-27 19:34:17,676 [myid:] - INFO  [main:Environment@97] - Client environment:os.version=10.0
+2016-11-27 19:34:17,676 [myid:] - INFO  [main:Environment@97] - Client environment:user.name=guilhermeosaka
+2016-11-27 19:34:17,677 [myid:] - INFO  [main:Environment@97] - Client environment:user.home=C:\Users\guilhermeosaka
+2016-11-27 19:34:17,677 [myid:] - INFO  [main:Environment@97] - Client environment:user.dir=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC
+2016-11-27 19:34:17,678 [myid:] - INFO  [main:ZooKeeper@373] - Initiating client connection, connectString=localhost sessionTimeout=3600 watcher=Broker$1@37a71e93
+2016-11-27 19:34:17,681 [myid:] - DEBUG [main:ClientCnxn@96] - zookeeper.disableAutoWatchReset is false
+2016-11-27 19:34:17,816 [myid:] - INFO  [main-SendThread():ClientCnxn$SendThread@1000] - Opening socket connection to server localhost/127.0.0.1:2181
+2016-11-27 19:34:17,818 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@908] - Socket connection established to localhost/127.0.0.1:2181, initiating session
+2016-11-27 19:34:17,821 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@955] - Session establishment request sent on localhost/127.0.0.1:2181
+2016-11-27 19:34:17,922 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@701] - Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x158a787a1260007, negotiated timeout = 4000
+2016-11-27 19:34:17,951 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@797] - Reading reply sessionid:0x158a787a1260007, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,23,0  request:: '/caminho,,v{s{31,s{'world,'anyone}}},1  response:: '/caminho 
+2016-11-27 19:34:30,635 [myid:] - INFO  [main:Environment@97] - Client environment:zookeeper.version=3.3.1-942149, built on 05/07/2010 17:14 GMT
+2016-11-27 19:34:30,639 [myid:] - INFO  [main:Environment@97] - Client environment:host.name=DESKTOP-GEJKOL3.Home
+2016-11-27 19:34:30,639 [myid:] - INFO  [main:Environment@97] - Client environment:java.version=1.8.0_111
+2016-11-27 19:34:30,639 [myid:] - INFO  [main:Environment@97] - Client environment:java.vendor=Oracle Corporation
+2016-11-27 19:34:30,641 [myid:] - INFO  [main:Environment@97] - Client environment:java.home=C:\Program Files\Java\jre1.8.0_111
+2016-11-27 19:34:30,642 [myid:] - INFO  [main:Environment@97] - Client environment:java.class.path=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC\bin;C:\Users\guilhermeosaka\Desktop\zookeeper.jar;C:\Users\guilhermeosaka\Desktop\log4j-1.2.17.jar
+2016-11-27 19:34:30,642 [myid:] - INFO  [main:Environment@97] - Client environment:java.library.path=C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Users\guilhermeosaka\AppData\Local\Microsoft\WindowsApps;;C:\Windows\system32;;.
+2016-11-27 19:34:30,642 [myid:] - INFO  [main:Environment@97] - Client environment:java.io.tmpdir=C:\Users\GUILHE~1\AppData\Local\Temp\
+2016-11-27 19:34:30,642 [myid:] - INFO  [main:Environment@97] - Client environment:java.compiler=<NA>
+2016-11-27 19:34:30,642 [myid:] - INFO  [main:Environment@97] - Client environment:os.name=Windows 10
+2016-11-27 19:34:30,642 [myid:] - INFO  [main:Environment@97] - Client environment:os.arch=amd64
+2016-11-27 19:34:30,643 [myid:] - INFO  [main:Environment@97] - Client environment:os.version=10.0
+2016-11-27 19:34:30,643 [myid:] - INFO  [main:Environment@97] - Client environment:user.name=guilhermeosaka
+2016-11-27 19:34:30,643 [myid:] - INFO  [main:Environment@97] - Client environment:user.home=C:\Users\guilhermeosaka
+2016-11-27 19:34:30,643 [myid:] - INFO  [main:Environment@97] - Client environment:user.dir=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC
+2016-11-27 19:34:30,644 [myid:] - INFO  [main:ZooKeeper@373] - Initiating client connection, connectString=localhost sessionTimeout=3600 watcher=Broker$1@37a71e93
+2016-11-27 19:34:30,648 [myid:] - DEBUG [main:ClientCnxn@96] - zookeeper.disableAutoWatchReset is false
+2016-11-27 19:34:30,788 [myid:] - INFO  [main-SendThread():ClientCnxn$SendThread@1000] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181
+2016-11-27 19:34:30,809 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@908] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2016-11-27 19:34:30,811 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@955] - Session establishment request sent on localhost/0:0:0:0:0:0:0:1:2181
+2016-11-27 19:34:30,899 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@701] - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x158a787a1260008, negotiated timeout = 4000
+2016-11-27 19:34:30,942 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@797] - Reading reply sessionid:0x158a787a1260008, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,26,0  request:: '/caminho,,v{s{31,s{'world,'anyone}}},1  response:: '/caminho 
+2016-11-27 19:36:04,639 [myid:] - INFO  [main:Environment@97] - Client environment:zookeeper.version=3.3.1-942149, built on 05/07/2010 17:14 GMT
+2016-11-27 19:36:04,644 [myid:] - INFO  [main:Environment@97] - Client environment:host.name=DESKTOP-GEJKOL3.Home
+2016-11-27 19:36:04,644 [myid:] - INFO  [main:Environment@97] - Client environment:java.version=1.8.0_111
+2016-11-27 19:36:04,644 [myid:] - INFO  [main:Environment@97] - Client environment:java.vendor=Oracle Corporation
+2016-11-27 19:36:04,646 [myid:] - INFO  [main:Environment@97] - Client environment:java.home=C:\Program Files\Java\jre1.8.0_111
+2016-11-27 19:36:04,646 [myid:] - INFO  [main:Environment@97] - Client environment:java.class.path=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC\bin;C:\Users\guilhermeosaka\Desktop\zookeeper.jar;C:\Users\guilhermeosaka\Desktop\log4j-1.2.17.jar
+2016-11-27 19:36:04,646 [myid:] - INFO  [main:Environment@97] - Client environment:java.library.path=C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Users\guilhermeosaka\AppData\Local\Microsoft\WindowsApps;;C:\Windows\system32;;.
+2016-11-27 19:36:04,647 [myid:] - INFO  [main:Environment@97] - Client environment:java.io.tmpdir=C:\Users\GUILHE~1\AppData\Local\Temp\
+2016-11-27 19:36:04,647 [myid:] - INFO  [main:Environment@97] - Client environment:java.compiler=<NA>
+2016-11-27 19:36:04,647 [myid:] - INFO  [main:Environment@97] - Client environment:os.name=Windows 10
+2016-11-27 19:36:04,647 [myid:] - INFO  [main:Environment@97] - Client environment:os.arch=amd64
+2016-11-27 19:36:04,647 [myid:] - INFO  [main:Environment@97] - Client environment:os.version=10.0
+2016-11-27 19:36:04,647 [myid:] - INFO  [main:Environment@97] - Client environment:user.name=guilhermeosaka
+2016-11-27 19:36:04,647 [myid:] - INFO  [main:Environment@97] - Client environment:user.home=C:\Users\guilhermeosaka
+2016-11-27 19:36:04,648 [myid:] - INFO  [main:Environment@97] - Client environment:user.dir=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC
+2016-11-27 19:36:04,649 [myid:] - INFO  [main:ZooKeeper@373] - Initiating client connection, connectString=localhost sessionTimeout=3600 watcher=Broker$1@37a71e93
+2016-11-27 19:36:04,653 [myid:] - DEBUG [main:ClientCnxn@96] - zookeeper.disableAutoWatchReset is false
+2016-11-27 19:36:04,793 [myid:] - INFO  [main-SendThread():ClientCnxn$SendThread@1000] - Opening socket connection to server localhost/127.0.0.1:2181
+2016-11-27 19:36:04,795 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@908] - Socket connection established to localhost/127.0.0.1:2181, initiating session
+2016-11-27 19:36:04,798 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@955] - Session establishment request sent on localhost/127.0.0.1:2181
+2016-11-27 19:36:04,919 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@701] - Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x158a787a1260009, negotiated timeout = 4000
+2016-11-27 19:36:05,076 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@797] - Reading reply sessionid:0x158a787a1260009, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,29,0  request:: '/caminho,,v{s{31,s{'world,'anyone}}},1  response:: '/caminho 
+2016-11-27 19:36:06,259 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a1260009 after 1ms
+2016-11-27 19:36:07,592 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a1260009 after 1ms
+2016-11-27 19:36:11,394 [myid:] - INFO  [main:Environment@97] - Client environment:zookeeper.version=3.3.1-942149, built on 05/07/2010 17:14 GMT
+2016-11-27 19:36:11,398 [myid:] - INFO  [main:Environment@97] - Client environment:host.name=DESKTOP-GEJKOL3.Home
+2016-11-27 19:36:11,399 [myid:] - INFO  [main:Environment@97] - Client environment:java.version=1.8.0_111
+2016-11-27 19:36:11,399 [myid:] - INFO  [main:Environment@97] - Client environment:java.vendor=Oracle Corporation
+2016-11-27 19:36:11,401 [myid:] - INFO  [main:Environment@97] - Client environment:java.home=C:\Program Files\Java\jre1.8.0_111
+2016-11-27 19:36:11,401 [myid:] - INFO  [main:Environment@97] - Client environment:java.class.path=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC\bin;C:\Users\guilhermeosaka\Desktop\zookeeper.jar;C:\Users\guilhermeosaka\Desktop\log4j-1.2.17.jar
+2016-11-27 19:36:11,401 [myid:] - INFO  [main:Environment@97] - Client environment:java.library.path=C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Users\guilhermeosaka\AppData\Local\Microsoft\WindowsApps;;C:\Windows\system32;;.
+2016-11-27 19:36:11,402 [myid:] - INFO  [main:Environment@97] - Client environment:java.io.tmpdir=C:\Users\GUILHE~1\AppData\Local\Temp\
+2016-11-27 19:36:11,402 [myid:] - INFO  [main:Environment@97] - Client environment:java.compiler=<NA>
+2016-11-27 19:36:11,402 [myid:] - INFO  [main:Environment@97] - Client environment:os.name=Windows 10
+2016-11-27 19:36:11,402 [myid:] - INFO  [main:Environment@97] - Client environment:os.arch=amd64
+2016-11-27 19:36:11,402 [myid:] - INFO  [main:Environment@97] - Client environment:os.version=10.0
+2016-11-27 19:36:11,402 [myid:] - INFO  [main:Environment@97] - Client environment:user.name=guilhermeosaka
+2016-11-27 19:36:11,402 [myid:] - INFO  [main:Environment@97] - Client environment:user.home=C:\Users\guilhermeosaka
+2016-11-27 19:36:11,403 [myid:] - INFO  [main:Environment@97] - Client environment:user.dir=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC
+2016-11-27 19:36:11,404 [myid:] - INFO  [main:ZooKeeper@373] - Initiating client connection, connectString=localhost sessionTimeout=3600 watcher=Broker$1@37a71e93
+2016-11-27 19:36:11,408 [myid:] - DEBUG [main:ClientCnxn@96] - zookeeper.disableAutoWatchReset is false
+2016-11-27 19:36:11,556 [myid:] - INFO  [main-SendThread():ClientCnxn$SendThread@1000] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181
+2016-11-27 19:36:11,558 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@908] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2016-11-27 19:36:11,561 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@955] - Session establishment request sent on localhost/0:0:0:0:0:0:0:1:2181
+2016-11-27 19:36:11,617 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@701] - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x158a787a126000a, negotiated timeout = 4000
+2016-11-27 19:36:11,665 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@797] - Reading reply sessionid:0x158a787a126000a, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,31,-110  request:: '/caminho,,v{s{31,s{'world,'anyone}}},1  response::  
+2016-11-27 19:36:18,768 [myid:] - INFO  [main:Environment@97] - Client environment:zookeeper.version=3.3.1-942149, built on 05/07/2010 17:14 GMT
+2016-11-27 19:36:18,772 [myid:] - INFO  [main:Environment@97] - Client environment:host.name=DESKTOP-GEJKOL3.Home
+2016-11-27 19:36:18,773 [myid:] - INFO  [main:Environment@97] - Client environment:java.version=1.8.0_111
+2016-11-27 19:36:18,773 [myid:] - INFO  [main:Environment@97] - Client environment:java.vendor=Oracle Corporation
+2016-11-27 19:36:18,774 [myid:] - INFO  [main:Environment@97] - Client environment:java.home=C:\Program Files\Java\jre1.8.0_111
+2016-11-27 19:36:18,775 [myid:] - INFO  [main:Environment@97] - Client environment:java.class.path=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC\bin;C:\Users\guilhermeosaka\Desktop\zookeeper.jar;C:\Users\guilhermeosaka\Desktop\log4j-1.2.17.jar
+2016-11-27 19:36:18,775 [myid:] - INFO  [main:Environment@97] - Client environment:java.library.path=C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Users\guilhermeosaka\AppData\Local\Microsoft\WindowsApps;;C:\Windows\system32;;.
+2016-11-27 19:36:18,775 [myid:] - INFO  [main:Environment@97] - Client environment:java.io.tmpdir=C:\Users\GUILHE~1\AppData\Local\Temp\
+2016-11-27 19:36:18,775 [myid:] - INFO  [main:Environment@97] - Client environment:java.compiler=<NA>
+2016-11-27 19:36:18,775 [myid:] - INFO  [main:Environment@97] - Client environment:os.name=Windows 10
+2016-11-27 19:36:18,775 [myid:] - INFO  [main:Environment@97] - Client environment:os.arch=amd64
+2016-11-27 19:36:18,775 [myid:] - INFO  [main:Environment@97] - Client environment:os.version=10.0
+2016-11-27 19:36:18,775 [myid:] - INFO  [main:Environment@97] - Client environment:user.name=guilhermeosaka
+2016-11-27 19:36:18,776 [myid:] - INFO  [main:Environment@97] - Client environment:user.home=C:\Users\guilhermeosaka
+2016-11-27 19:36:18,776 [myid:] - INFO  [main:Environment@97] - Client environment:user.dir=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC
+2016-11-27 19:36:18,777 [myid:] - INFO  [main:ZooKeeper@373] - Initiating client connection, connectString=localhost sessionTimeout=3600 watcher=Broker$1@37a71e93
+2016-11-27 19:36:18,780 [myid:] - DEBUG [main:ClientCnxn@96] - zookeeper.disableAutoWatchReset is false
+2016-11-27 19:36:18,918 [myid:] - INFO  [main-SendThread():ClientCnxn$SendThread@1000] - Opening socket connection to server localhost/127.0.0.1:2181
+2016-11-27 19:36:18,920 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@908] - Socket connection established to localhost/127.0.0.1:2181, initiating session
+2016-11-27 19:36:18,923 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@955] - Session establishment request sent on localhost/127.0.0.1:2181
+2016-11-27 19:36:18,949 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@701] - Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x158a787a126000b, negotiated timeout = 4000
+2016-11-27 19:36:18,977 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@797] - Reading reply sessionid:0x158a787a126000b, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,35,0  request:: '/caminho,,v{s{31,s{'world,'anyone}}},1  response:: '/caminho 
+2016-11-27 19:36:20,283 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000b after 0ms
+2016-11-27 19:36:21,618 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000b after 0ms
+2016-11-27 19:36:22,952 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000b after 0ms
+2016-11-27 19:36:24,285 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000b after 0ms
+2016-11-27 19:36:25,618 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000b after 0ms
+2016-11-27 19:36:26,952 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000b after 1ms
+2016-11-27 19:36:28,286 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000b after 0ms
+2016-11-27 19:36:29,620 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000b after 1ms
+2016-11-27 19:36:30,954 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000b after 0ms
+2016-11-27 19:36:32,287 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000b after 0ms
+2016-11-27 19:36:33,622 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000b after 0ms
+2016-11-27 19:36:34,956 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000b after 0ms
+2016-11-27 19:36:36,289 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000b after 0ms
+2016-11-27 19:36:37,622 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000b after 0ms
+2016-11-27 19:36:38,957 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000b after 0ms
+2016-11-27 19:36:40,291 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000b after 0ms
+2016-11-27 19:39:27,049 [myid:] - INFO  [main:Environment@97] - Client environment:zookeeper.version=3.3.1-942149, built on 05/07/2010 17:14 GMT
+2016-11-27 19:39:27,053 [myid:] - INFO  [main:Environment@97] - Client environment:host.name=DESKTOP-GEJKOL3.Home
+2016-11-27 19:39:27,053 [myid:] - INFO  [main:Environment@97] - Client environment:java.version=1.8.0_111
+2016-11-27 19:39:27,053 [myid:] - INFO  [main:Environment@97] - Client environment:java.vendor=Oracle Corporation
+2016-11-27 19:39:27,055 [myid:] - INFO  [main:Environment@97] - Client environment:java.home=C:\Program Files\Java\jre1.8.0_111
+2016-11-27 19:39:27,056 [myid:] - INFO  [main:Environment@97] - Client environment:java.class.path=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC\bin;C:\Users\guilhermeosaka\Desktop\zookeeper.jar;C:\Users\guilhermeosaka\Desktop\log4j-1.2.17.jar
+2016-11-27 19:39:27,056 [myid:] - INFO  [main:Environment@97] - Client environment:java.library.path=C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Users\guilhermeosaka\AppData\Local\Microsoft\WindowsApps;;C:\Windows\system32;;.
+2016-11-27 19:39:27,056 [myid:] - INFO  [main:Environment@97] - Client environment:java.io.tmpdir=C:\Users\GUILHE~1\AppData\Local\Temp\
+2016-11-27 19:39:27,056 [myid:] - INFO  [main:Environment@97] - Client environment:java.compiler=<NA>
+2016-11-27 19:39:27,056 [myid:] - INFO  [main:Environment@97] - Client environment:os.name=Windows 10
+2016-11-27 19:39:27,056 [myid:] - INFO  [main:Environment@97] - Client environment:os.arch=amd64
+2016-11-27 19:39:27,056 [myid:] - INFO  [main:Environment@97] - Client environment:os.version=10.0
+2016-11-27 19:39:27,057 [myid:] - INFO  [main:Environment@97] - Client environment:user.name=guilhermeosaka
+2016-11-27 19:39:27,057 [myid:] - INFO  [main:Environment@97] - Client environment:user.home=C:\Users\guilhermeosaka
+2016-11-27 19:39:27,057 [myid:] - INFO  [main:Environment@97] - Client environment:user.dir=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC
+2016-11-27 19:39:27,058 [myid:] - INFO  [main:ZooKeeper@373] - Initiating client connection, connectString=localhost sessionTimeout=3600 watcher=Broker$1@37a71e93
+2016-11-27 19:39:27,061 [myid:] - DEBUG [main:ClientCnxn@96] - zookeeper.disableAutoWatchReset is false
+2016-11-27 19:39:27,195 [myid:] - INFO  [main-SendThread():ClientCnxn$SendThread@1000] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181
+2016-11-27 19:39:27,198 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@908] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2016-11-27 19:39:27,201 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@955] - Session establishment request sent on localhost/0:0:0:0:0:0:0:1:2181
+2016-11-27 19:39:27,284 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@701] - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x158a787a126000c, negotiated timeout = 4000
+2016-11-27 19:39:27,326 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@797] - Reading reply sessionid:0x158a787a126000c, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,38,0  request:: '/caminho,,v{s{31,s{'world,'anyone}}},1  response:: '/caminho 
+2016-11-27 19:39:28,539 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000c after 1ms
+2016-11-27 19:39:29,872 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000c after 0ms
+2016-11-27 19:39:31,207 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000c after 0ms
+2016-11-27 19:39:32,539 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000c after 0ms
+2016-11-27 19:39:33,874 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000c after 0ms
+2016-11-27 19:39:35,208 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000c after 0ms
+2016-11-27 19:39:44,487 [myid:] - INFO  [main:Environment@97] - Client environment:zookeeper.version=3.3.1-942149, built on 05/07/2010 17:14 GMT
+2016-11-27 19:39:44,492 [myid:] - INFO  [main:Environment@97] - Client environment:host.name=DESKTOP-GEJKOL3.Home
+2016-11-27 19:39:44,492 [myid:] - INFO  [main:Environment@97] - Client environment:java.version=1.8.0_111
+2016-11-27 19:39:44,492 [myid:] - INFO  [main:Environment@97] - Client environment:java.vendor=Oracle Corporation
+2016-11-27 19:39:44,494 [myid:] - INFO  [main:Environment@97] - Client environment:java.home=C:\Program Files\Java\jre1.8.0_111
+2016-11-27 19:39:44,494 [myid:] - INFO  [main:Environment@97] - Client environment:java.class.path=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC\bin;C:\Users\guilhermeosaka\Desktop\zookeeper.jar;C:\Users\guilhermeosaka\Desktop\log4j-1.2.17.jar
+2016-11-27 19:39:44,494 [myid:] - INFO  [main:Environment@97] - Client environment:java.library.path=C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Users\guilhermeosaka\AppData\Local\Microsoft\WindowsApps;;C:\Windows\system32;;.
+2016-11-27 19:39:44,495 [myid:] - INFO  [main:Environment@97] - Client environment:java.io.tmpdir=C:\Users\GUILHE~1\AppData\Local\Temp\
+2016-11-27 19:39:44,495 [myid:] - INFO  [main:Environment@97] - Client environment:java.compiler=<NA>
+2016-11-27 19:39:44,495 [myid:] - INFO  [main:Environment@97] - Client environment:os.name=Windows 10
+2016-11-27 19:39:44,495 [myid:] - INFO  [main:Environment@97] - Client environment:os.arch=amd64
+2016-11-27 19:39:44,495 [myid:] - INFO  [main:Environment@97] - Client environment:os.version=10.0
+2016-11-27 19:39:44,495 [myid:] - INFO  [main:Environment@97] - Client environment:user.name=guilhermeosaka
+2016-11-27 19:39:44,495 [myid:] - INFO  [main:Environment@97] - Client environment:user.home=C:\Users\guilhermeosaka
+2016-11-27 19:39:44,496 [myid:] - INFO  [main:Environment@97] - Client environment:user.dir=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC
+2016-11-27 19:39:44,497 [myid:] - INFO  [main:ZooKeeper@373] - Initiating client connection, connectString=localhost sessionTimeout=3600 watcher=Broker$1@37a71e93
+2016-11-27 19:39:44,500 [myid:] - DEBUG [main:ClientCnxn@96] - zookeeper.disableAutoWatchReset is false
+2016-11-27 19:39:44,634 [myid:] - INFO  [main-SendThread():ClientCnxn$SendThread@1000] - Opening socket connection to server localhost/127.0.0.1:2181
+2016-11-27 19:39:44,637 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@908] - Socket connection established to localhost/127.0.0.1:2181, initiating session
+2016-11-27 19:39:44,640 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@955] - Session establishment request sent on localhost/127.0.0.1:2181
+2016-11-27 19:39:44,724 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@701] - Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x158a787a126000d, negotiated timeout = 4000
+2016-11-27 19:39:44,755 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@797] - Reading reply sessionid:0x158a787a126000d, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,41,0  request:: '/caminho,,v{s{31,s{'world,'anyone}}},1  response:: '/caminho 
+2016-11-27 19:39:46,060 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000d after 0ms
+2016-11-27 19:39:47,393 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000d after 0ms
+2016-11-27 19:39:48,727 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000d after 0ms
+2016-11-27 19:39:50,062 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000d after 0ms
+2016-11-27 19:39:51,396 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000d after 0ms
+2016-11-27 19:39:52,729 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000d after 0ms
+2016-11-27 19:39:54,063 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000d after 0ms
+2016-11-27 19:39:55,397 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000d after 0ms
+2016-11-27 19:39:56,731 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000d after 0ms
+2016-11-27 19:45:40,984 [myid:] - INFO  [main:Environment@97] - Client environment:zookeeper.version=3.3.1-942149, built on 05/07/2010 17:14 GMT
+2016-11-27 19:45:40,989 [myid:] - INFO  [main:Environment@97] - Client environment:host.name=DESKTOP-GEJKOL3.Home
+2016-11-27 19:45:40,989 [myid:] - INFO  [main:Environment@97] - Client environment:java.version=1.8.0_111
+2016-11-27 19:45:40,989 [myid:] - INFO  [main:Environment@97] - Client environment:java.vendor=Oracle Corporation
+2016-11-27 19:45:40,992 [myid:] - INFO  [main:Environment@97] - Client environment:java.home=C:\Program Files\Java\jre1.8.0_111
+2016-11-27 19:45:40,992 [myid:] - INFO  [main:Environment@97] - Client environment:java.class.path=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC\bin;C:\Users\guilhermeosaka\Desktop\zookeeper.jar;C:\Users\guilhermeosaka\Desktop\log4j-1.2.17.jar
+2016-11-27 19:45:40,992 [myid:] - INFO  [main:Environment@97] - Client environment:java.library.path=C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Users\guilhermeosaka\AppData\Local\Microsoft\WindowsApps;;C:\Windows\system32;;.
+2016-11-27 19:45:40,993 [myid:] - INFO  [main:Environment@97] - Client environment:java.io.tmpdir=C:\Users\GUILHE~1\AppData\Local\Temp\
+2016-11-27 19:45:40,993 [myid:] - INFO  [main:Environment@97] - Client environment:java.compiler=<NA>
+2016-11-27 19:45:40,993 [myid:] - INFO  [main:Environment@97] - Client environment:os.name=Windows 10
+2016-11-27 19:45:40,993 [myid:] - INFO  [main:Environment@97] - Client environment:os.arch=amd64
+2016-11-27 19:45:40,993 [myid:] - INFO  [main:Environment@97] - Client environment:os.version=10.0
+2016-11-27 19:45:40,993 [myid:] - INFO  [main:Environment@97] - Client environment:user.name=guilhermeosaka
+2016-11-27 19:45:40,993 [myid:] - INFO  [main:Environment@97] - Client environment:user.home=C:\Users\guilhermeosaka
+2016-11-27 19:45:40,994 [myid:] - INFO  [main:Environment@97] - Client environment:user.dir=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC
+2016-11-27 19:45:40,995 [myid:] - INFO  [main:ZooKeeper@373] - Initiating client connection, connectString=localhost sessionTimeout=3600 watcher=Broker$1@37a71e93
+2016-11-27 19:45:40,999 [myid:] - DEBUG [main:ClientCnxn@96] - zookeeper.disableAutoWatchReset is false
+2016-11-27 19:45:41,153 [myid:] - INFO  [main-SendThread():ClientCnxn$SendThread@1000] - Opening socket connection to server localhost/127.0.0.1:2181
+2016-11-27 19:45:41,156 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@908] - Socket connection established to localhost/127.0.0.1:2181, initiating session
+2016-11-27 19:45:41,159 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@955] - Session establishment request sent on localhost/127.0.0.1:2181
+2016-11-27 19:45:41,239 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@701] - Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x158a787a126000e, negotiated timeout = 4000
+2016-11-27 19:45:41,293 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@797] - Reading reply sessionid:0x158a787a126000e, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,44,0  request:: '/caminho,,v{s{31,s{'world,'anyone}}},1  response:: '/caminho 
+2016-11-27 19:45:42,578 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 1ms
+2016-11-27 19:45:43,913 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 2ms
+2016-11-27 19:45:45,246 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 1ms
+2016-11-27 19:45:46,580 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 2ms
+2016-11-27 19:45:47,913 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 2ms
+2016-11-27 19:45:49,248 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 1ms
+2016-11-27 19:45:50,582 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 1ms
+2016-11-27 19:45:51,917 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 1ms
+2016-11-27 19:45:53,252 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 1ms
+2016-11-27 19:45:54,588 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 2ms
+2016-11-27 19:45:55,921 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 0ms
+2016-11-27 19:45:57,256 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 2ms
+2016-11-27 19:45:58,590 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 1ms
+2016-11-27 19:45:59,924 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 2ms
+2016-11-27 19:46:01,257 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 1ms
+2016-11-27 19:46:02,590 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 1ms
+2016-11-27 19:46:03,925 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 2ms
+2016-11-27 19:46:05,261 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 1ms
+2016-11-27 19:46:06,595 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 1ms
+2016-11-27 19:46:07,930 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 1ms
+2016-11-27 19:46:09,263 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 2ms
+2016-11-27 19:46:10,598 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 1ms
+2016-11-27 19:46:11,931 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 1ms
+2016-11-27 19:46:13,266 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 2ms
+2016-11-27 19:46:14,598 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 1ms
+2016-11-27 19:46:15,932 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 1ms
+2016-11-27 19:46:17,264 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 1ms
+2016-11-27 19:46:18,598 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 1ms
+2016-11-27 19:46:19,933 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 1ms
+2016-11-27 19:46:21,266 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 0ms
+2016-11-27 19:46:22,600 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 1ms
+2016-11-27 19:46:23,934 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 1ms
+2016-11-27 19:46:25,268 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 1ms
+2016-11-27 19:46:26,601 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 0ms
+2016-11-27 19:46:27,935 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 1ms
+2016-11-27 19:46:29,269 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 1ms
+2016-11-27 19:46:30,604 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 1ms
+2016-11-27 19:46:31,938 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 1ms
+2016-11-27 19:46:33,272 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 1ms
+2016-11-27 19:46:34,604 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 1ms
+2016-11-27 19:46:35,939 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 1ms
+2016-11-27 19:46:37,272 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 1ms
+2016-11-27 19:46:38,607 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 1ms
+2016-11-27 19:46:39,942 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 1ms
+2016-11-27 19:46:41,275 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 1ms
+2016-11-27 19:46:42,608 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 1ms
+2016-11-27 19:46:43,942 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 1ms
+2016-11-27 19:46:45,276 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 1ms
+2016-11-27 19:46:46,611 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 2ms
+2016-11-27 19:46:47,945 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 2ms
+2016-11-27 19:46:49,279 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 1ms
+2016-11-27 19:46:50,613 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 1ms
+2016-11-27 19:46:51,947 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 1ms
+2016-11-27 19:46:53,281 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 1ms
+2016-11-27 19:46:54,615 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 1ms
+2016-11-27 19:46:55,948 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 1ms
+2016-11-27 19:46:57,283 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 2ms
+2016-11-27 19:46:58,615 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000e after 1ms
+2016-11-27 19:47:02,953 [myid:] - INFO  [main:Environment@97] - Client environment:zookeeper.version=3.3.1-942149, built on 05/07/2010 17:14 GMT
+2016-11-27 19:47:02,957 [myid:] - INFO  [main:Environment@97] - Client environment:host.name=DESKTOP-GEJKOL3.Home
+2016-11-27 19:47:02,958 [myid:] - INFO  [main:Environment@97] - Client environment:java.version=1.8.0_111
+2016-11-27 19:47:02,958 [myid:] - INFO  [main:Environment@97] - Client environment:java.vendor=Oracle Corporation
+2016-11-27 19:47:02,960 [myid:] - INFO  [main:Environment@97] - Client environment:java.home=C:\Program Files\Java\jre1.8.0_111
+2016-11-27 19:47:02,960 [myid:] - INFO  [main:Environment@97] - Client environment:java.class.path=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC\bin;C:\Users\guilhermeosaka\Desktop\zookeeper.jar;C:\Users\guilhermeosaka\Desktop\log4j-1.2.17.jar
+2016-11-27 19:47:02,960 [myid:] - INFO  [main:Environment@97] - Client environment:java.library.path=C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Users\guilhermeosaka\AppData\Local\Microsoft\WindowsApps;;C:\Windows\system32;;.
+2016-11-27 19:47:02,960 [myid:] - INFO  [main:Environment@97] - Client environment:java.io.tmpdir=C:\Users\GUILHE~1\AppData\Local\Temp\
+2016-11-27 19:47:02,961 [myid:] - INFO  [main:Environment@97] - Client environment:java.compiler=<NA>
+2016-11-27 19:47:02,961 [myid:] - INFO  [main:Environment@97] - Client environment:os.name=Windows 10
+2016-11-27 19:47:02,961 [myid:] - INFO  [main:Environment@97] - Client environment:os.arch=amd64
+2016-11-27 19:47:02,961 [myid:] - INFO  [main:Environment@97] - Client environment:os.version=10.0
+2016-11-27 19:47:02,961 [myid:] - INFO  [main:Environment@97] - Client environment:user.name=guilhermeosaka
+2016-11-27 19:47:02,961 [myid:] - INFO  [main:Environment@97] - Client environment:user.home=C:\Users\guilhermeosaka
+2016-11-27 19:47:02,961 [myid:] - INFO  [main:Environment@97] - Client environment:user.dir=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC
+2016-11-27 19:47:02,963 [myid:] - INFO  [main:ZooKeeper@373] - Initiating client connection, connectString=localhost sessionTimeout=3600 watcher=Broker$1@37a71e93
+2016-11-27 19:47:02,966 [myid:] - DEBUG [main:ClientCnxn@96] - zookeeper.disableAutoWatchReset is false
+2016-11-27 19:47:03,101 [myid:] - INFO  [main-SendThread():ClientCnxn$SendThread@1000] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181
+2016-11-27 19:47:03,104 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@908] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2016-11-27 19:47:03,106 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@955] - Session establishment request sent on localhost/0:0:0:0:0:0:0:1:2181
+2016-11-27 19:47:03,184 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@701] - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x158a787a126000f, negotiated timeout = 4000
+2016-11-27 19:47:03,226 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@797] - Reading reply sessionid:0x158a787a126000f, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,46,-110  request:: '/caminho,,v{s{31,s{'world,'anyone}}},1  response::  
+2016-11-27 19:47:04,520 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000f after 1ms
+2016-11-27 19:47:05,651 [myid:] - INFO  [main:Environment@97] - Client environment:zookeeper.version=3.3.1-942149, built on 05/07/2010 17:14 GMT
+2016-11-27 19:47:05,656 [myid:] - INFO  [main:Environment@97] - Client environment:host.name=DESKTOP-GEJKOL3.Home
+2016-11-27 19:47:05,656 [myid:] - INFO  [main:Environment@97] - Client environment:java.version=1.8.0_111
+2016-11-27 19:47:05,656 [myid:] - INFO  [main:Environment@97] - Client environment:java.vendor=Oracle Corporation
+2016-11-27 19:47:05,658 [myid:] - INFO  [main:Environment@97] - Client environment:java.home=C:\Program Files\Java\jre1.8.0_111
+2016-11-27 19:47:05,658 [myid:] - INFO  [main:Environment@97] - Client environment:java.class.path=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC\bin;C:\Users\guilhermeosaka\Desktop\zookeeper.jar;C:\Users\guilhermeosaka\Desktop\log4j-1.2.17.jar
+2016-11-27 19:47:05,658 [myid:] - INFO  [main:Environment@97] - Client environment:java.library.path=C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Users\guilhermeosaka\AppData\Local\Microsoft\WindowsApps;;C:\Windows\system32;;.
+2016-11-27 19:47:05,659 [myid:] - INFO  [main:Environment@97] - Client environment:java.io.tmpdir=C:\Users\GUILHE~1\AppData\Local\Temp\
+2016-11-27 19:47:05,659 [myid:] - INFO  [main:Environment@97] - Client environment:java.compiler=<NA>
+2016-11-27 19:47:05,659 [myid:] - INFO  [main:Environment@97] - Client environment:os.name=Windows 10
+2016-11-27 19:47:05,659 [myid:] - INFO  [main:Environment@97] - Client environment:os.arch=amd64
+2016-11-27 19:47:05,659 [myid:] - INFO  [main:Environment@97] - Client environment:os.version=10.0
+2016-11-27 19:47:05,659 [myid:] - INFO  [main:Environment@97] - Client environment:user.name=guilhermeosaka
+2016-11-27 19:47:05,659 [myid:] - INFO  [main:Environment@97] - Client environment:user.home=C:\Users\guilhermeosaka
+2016-11-27 19:47:05,659 [myid:] - INFO  [main:Environment@97] - Client environment:user.dir=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC
+2016-11-27 19:47:05,661 [myid:] - INFO  [main:ZooKeeper@373] - Initiating client connection, connectString=localhost sessionTimeout=3600 watcher=Broker$1@37a71e93
+2016-11-27 19:47:05,664 [myid:] - DEBUG [main:ClientCnxn@96] - zookeeper.disableAutoWatchReset is false
+2016-11-27 19:47:05,801 [myid:] - INFO  [main-SendThread():ClientCnxn$SendThread@1000] - Opening socket connection to server localhost/127.0.0.1:2181
+2016-11-27 19:47:05,803 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@908] - Socket connection established to localhost/127.0.0.1:2181, initiating session
+2016-11-27 19:47:05,806 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@955] - Session establishment request sent on localhost/127.0.0.1:2181
+2016-11-27 19:47:05,891 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000f after 38ms
+2016-11-27 19:47:05,893 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@701] - Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x158a787a1260010, negotiated timeout = 4000
+2016-11-27 19:47:05,951 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@797] - Reading reply sessionid:0x158a787a1260010, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,49,0  request:: '/caminho,,v{s{31,s{'world,'anyone}}},1  response:: '/caminho 
+2016-11-27 19:47:07,189 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000f after 2ms
+2016-11-27 19:47:07,228 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a1260010 after 2ms
+2016-11-27 19:47:08,523 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a126000f after 2ms
+2016-11-27 19:47:12,128 [myid:] - INFO  [main:Environment@97] - Client environment:zookeeper.version=3.3.1-942149, built on 05/07/2010 17:14 GMT
+2016-11-27 19:47:12,133 [myid:] - INFO  [main:Environment@97] - Client environment:host.name=DESKTOP-GEJKOL3.Home
+2016-11-27 19:47:12,133 [myid:] - INFO  [main:Environment@97] - Client environment:java.version=1.8.0_111
+2016-11-27 19:47:12,133 [myid:] - INFO  [main:Environment@97] - Client environment:java.vendor=Oracle Corporation
+2016-11-27 19:47:12,135 [myid:] - INFO  [main:Environment@97] - Client environment:java.home=C:\Program Files\Java\jre1.8.0_111
+2016-11-27 19:47:12,135 [myid:] - INFO  [main:Environment@97] - Client environment:java.class.path=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC\bin;C:\Users\guilhermeosaka\Desktop\zookeeper.jar;C:\Users\guilhermeosaka\Desktop\log4j-1.2.17.jar
+2016-11-27 19:47:12,135 [myid:] - INFO  [main:Environment@97] - Client environment:java.library.path=C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Users\guilhermeosaka\AppData\Local\Microsoft\WindowsApps;;C:\Windows\system32;;.
+2016-11-27 19:47:12,136 [myid:] - INFO  [main:Environment@97] - Client environment:java.io.tmpdir=C:\Users\GUILHE~1\AppData\Local\Temp\
+2016-11-27 19:47:12,136 [myid:] - INFO  [main:Environment@97] - Client environment:java.compiler=<NA>
+2016-11-27 19:47:12,136 [myid:] - INFO  [main:Environment@97] - Client environment:os.name=Windows 10
+2016-11-27 19:47:12,136 [myid:] - INFO  [main:Environment@97] - Client environment:os.arch=amd64
+2016-11-27 19:47:12,136 [myid:] - INFO  [main:Environment@97] - Client environment:os.version=10.0
+2016-11-27 19:47:12,136 [myid:] - INFO  [main:Environment@97] - Client environment:user.name=guilhermeosaka
+2016-11-27 19:47:12,136 [myid:] - INFO  [main:Environment@97] - Client environment:user.home=C:\Users\guilhermeosaka
+2016-11-27 19:47:12,136 [myid:] - INFO  [main:Environment@97] - Client environment:user.dir=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC
+2016-11-27 19:47:12,138 [myid:] - INFO  [main:ZooKeeper@373] - Initiating client connection, connectString=localhost sessionTimeout=3600 watcher=Broker$1@37a71e93
+2016-11-27 19:47:12,141 [myid:] - DEBUG [main:ClientCnxn@96] - zookeeper.disableAutoWatchReset is false
+2016-11-27 19:47:12,276 [myid:] - INFO  [main-SendThread():ClientCnxn$SendThread@1000] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181
+2016-11-27 19:47:12,278 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@908] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2016-11-27 19:47:12,281 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@955] - Session establishment request sent on localhost/0:0:0:0:0:0:0:1:2181
+2016-11-27 19:47:12,309 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@701] - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x158a787a1260011, negotiated timeout = 4000
+2016-11-27 19:47:12,331 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@797] - Reading reply sessionid:0x158a787a1260011, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,52,0  request:: '/caminho,,v{s{31,s{'world,'anyone}}},1  response:: '/caminho 
+2016-11-27 19:47:13,644 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a1260011 after 1ms
+2016-11-27 19:47:14,980 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a1260011 after 2ms
+2016-11-27 19:47:16,312 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a1260011 after 1ms
+2016-11-27 19:47:17,646 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a1260011 after 1ms
+2016-11-27 19:47:18,981 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a1260011 after 1ms
+2016-11-27 19:47:20,314 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a1260011 after 1ms
+2016-11-27 19:47:21,649 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a1260011 after 1ms
+2016-11-27 19:47:22,982 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a1260011 after 1ms
+2016-11-27 19:47:54,090 [myid:] - INFO  [main:Environment@97] - Client environment:zookeeper.version=3.3.1-942149, built on 05/07/2010 17:14 GMT
+2016-11-27 19:47:54,094 [myid:] - INFO  [main:Environment@97] - Client environment:host.name=DESKTOP-GEJKOL3.Home
+2016-11-27 19:47:54,095 [myid:] - INFO  [main:Environment@97] - Client environment:java.version=1.8.0_111
+2016-11-27 19:47:54,095 [myid:] - INFO  [main:Environment@97] - Client environment:java.vendor=Oracle Corporation
+2016-11-27 19:47:54,097 [myid:] - INFO  [main:Environment@97] - Client environment:java.home=C:\Program Files\Java\jre1.8.0_111
+2016-11-27 19:47:54,097 [myid:] - INFO  [main:Environment@97] - Client environment:java.class.path=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC\bin;C:\Users\guilhermeosaka\Desktop\zookeeper.jar;C:\Users\guilhermeosaka\Desktop\log4j-1.2.17.jar
+2016-11-27 19:47:54,097 [myid:] - INFO  [main:Environment@97] - Client environment:java.library.path=C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Users\guilhermeosaka\AppData\Local\Microsoft\WindowsApps;;C:\Windows\system32;;.
+2016-11-27 19:47:54,097 [myid:] - INFO  [main:Environment@97] - Client environment:java.io.tmpdir=C:\Users\GUILHE~1\AppData\Local\Temp\
+2016-11-27 19:47:54,097 [myid:] - INFO  [main:Environment@97] - Client environment:java.compiler=<NA>
+2016-11-27 19:47:54,097 [myid:] - INFO  [main:Environment@97] - Client environment:os.name=Windows 10
+2016-11-27 19:47:54,097 [myid:] - INFO  [main:Environment@97] - Client environment:os.arch=amd64
+2016-11-27 19:47:54,098 [myid:] - INFO  [main:Environment@97] - Client environment:os.version=10.0
+2016-11-27 19:47:54,098 [myid:] - INFO  [main:Environment@97] - Client environment:user.name=guilhermeosaka
+2016-11-27 19:47:54,098 [myid:] - INFO  [main:Environment@97] - Client environment:user.home=C:\Users\guilhermeosaka
+2016-11-27 19:47:54,098 [myid:] - INFO  [main:Environment@97] - Client environment:user.dir=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC
+2016-11-27 19:47:54,099 [myid:] - INFO  [main:ZooKeeper@373] - Initiating client connection, connectString=localhost sessionTimeout=3600 watcher=Broker$1@37a71e93
+2016-11-27 19:47:54,103 [myid:] - DEBUG [main:ClientCnxn@96] - zookeeper.disableAutoWatchReset is false
+2016-11-27 19:47:54,241 [myid:] - INFO  [main-SendThread():ClientCnxn$SendThread@1000] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181
+2016-11-27 19:47:54,243 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@908] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2016-11-27 19:47:54,246 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@955] - Session establishment request sent on localhost/0:0:0:0:0:0:0:1:2181
+2016-11-27 19:47:54,286 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@701] - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x158a787a1260012, negotiated timeout = 4000
+2016-11-27 19:47:54,315 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@797] - Reading reply sessionid:0x158a787a1260012, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,56,0  request:: '/caminho,,v{s{31,s{'world,'anyone}}},1  response:: '/caminho 
+2016-11-27 19:47:55,623 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a1260012 after 1ms
+2016-11-27 19:47:56,957 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a1260012 after 1ms
+2016-11-27 19:47:58,292 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a1260012 after 2ms
+2016-11-27 19:47:59,625 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a1260012 after 1ms
+2016-11-27 19:48:00,959 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a1260012 after 0ms
+2016-11-27 19:48:02,293 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a1260012 after 2ms
+2016-11-27 19:48:03,627 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a1260012 after 1ms
+2016-11-27 19:48:04,960 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a1260012 after 1ms
+2016-11-27 19:48:06,295 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a1260012 after 1ms
+2016-11-27 19:48:07,630 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a1260012 after 1ms
+2016-11-27 19:48:14,586 [myid:] - INFO  [main:Environment@97] - Client environment:zookeeper.version=3.3.1-942149, built on 05/07/2010 17:14 GMT
+2016-11-27 19:48:14,590 [myid:] - INFO  [main:Environment@97] - Client environment:host.name=DESKTOP-GEJKOL3.Home
+2016-11-27 19:48:14,590 [myid:] - INFO  [main:Environment@97] - Client environment:java.version=1.8.0_111
+2016-11-27 19:48:14,591 [myid:] - INFO  [main:Environment@97] - Client environment:java.vendor=Oracle Corporation
+2016-11-27 19:48:14,592 [myid:] - INFO  [main:Environment@97] - Client environment:java.home=C:\Program Files\Java\jre1.8.0_111
+2016-11-27 19:48:14,593 [myid:] - INFO  [main:Environment@97] - Client environment:java.class.path=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC\bin;C:\Users\guilhermeosaka\Desktop\zookeeper.jar;C:\Users\guilhermeosaka\Desktop\log4j-1.2.17.jar
+2016-11-27 19:48:14,593 [myid:] - INFO  [main:Environment@97] - Client environment:java.library.path=C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Users\guilhermeosaka\AppData\Local\Microsoft\WindowsApps;;C:\Windows\system32;;.
+2016-11-27 19:48:14,593 [myid:] - INFO  [main:Environment@97] - Client environment:java.io.tmpdir=C:\Users\GUILHE~1\AppData\Local\Temp\
+2016-11-27 19:48:14,593 [myid:] - INFO  [main:Environment@97] - Client environment:java.compiler=<NA>
+2016-11-27 19:48:14,593 [myid:] - INFO  [main:Environment@97] - Client environment:os.name=Windows 10
+2016-11-27 19:48:14,593 [myid:] - INFO  [main:Environment@97] - Client environment:os.arch=amd64
+2016-11-27 19:48:14,594 [myid:] - INFO  [main:Environment@97] - Client environment:os.version=10.0
+2016-11-27 19:48:14,594 [myid:] - INFO  [main:Environment@97] - Client environment:user.name=guilhermeosaka
+2016-11-27 19:48:14,594 [myid:] - INFO  [main:Environment@97] - Client environment:user.home=C:\Users\guilhermeosaka
+2016-11-27 19:48:14,594 [myid:] - INFO  [main:Environment@97] - Client environment:user.dir=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC
+2016-11-27 19:48:14,595 [myid:] - INFO  [main:ZooKeeper@373] - Initiating client connection, connectString=localhost sessionTimeout=3600 watcher=Broker$1@37a71e93
+2016-11-27 19:48:14,599 [myid:] - DEBUG [main:ClientCnxn@96] - zookeeper.disableAutoWatchReset is false
+2016-11-27 19:48:14,736 [myid:] - INFO  [main-SendThread():ClientCnxn$SendThread@1000] - Opening socket connection to server localhost/127.0.0.1:2181
+2016-11-27 19:48:14,738 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@908] - Socket connection established to localhost/127.0.0.1:2181, initiating session
+2016-11-27 19:48:14,741 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@955] - Session establishment request sent on localhost/127.0.0.1:2181
+2016-11-27 19:48:14,839 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@701] - Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x158a787a1260013, negotiated timeout = 4000
+2016-11-27 19:48:14,881 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@797] - Reading reply sessionid:0x158a787a1260013, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,59,0  request:: '/caminho,,v{s{31,s{'world,'anyone}}},1  response:: '/caminho 
+2016-11-27 19:49:18,048 [myid:] - INFO  [main:Environment@97] - Client environment:zookeeper.version=3.3.1-942149, built on 05/07/2010 17:14 GMT
+2016-11-27 19:49:18,053 [myid:] - INFO  [main:Environment@97] - Client environment:host.name=DESKTOP-GEJKOL3.Home
+2016-11-27 19:49:18,053 [myid:] - INFO  [main:Environment@97] - Client environment:java.version=1.8.0_111
+2016-11-27 19:49:18,053 [myid:] - INFO  [main:Environment@97] - Client environment:java.vendor=Oracle Corporation
+2016-11-27 19:49:18,055 [myid:] - INFO  [main:Environment@97] - Client environment:java.home=C:\Program Files\Java\jre1.8.0_111
+2016-11-27 19:49:18,055 [myid:] - INFO  [main:Environment@97] - Client environment:java.class.path=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC\bin;C:\Users\guilhermeosaka\Desktop\zookeeper.jar;C:\Users\guilhermeosaka\Desktop\log4j-1.2.17.jar
+2016-11-27 19:49:18,055 [myid:] - INFO  [main:Environment@97] - Client environment:java.library.path=C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Users\guilhermeosaka\AppData\Local\Microsoft\WindowsApps;;C:\Windows\system32;;.
+2016-11-27 19:49:18,055 [myid:] - INFO  [main:Environment@97] - Client environment:java.io.tmpdir=C:\Users\GUILHE~1\AppData\Local\Temp\
+2016-11-27 19:49:18,056 [myid:] - INFO  [main:Environment@97] - Client environment:java.compiler=<NA>
+2016-11-27 19:49:18,056 [myid:] - INFO  [main:Environment@97] - Client environment:os.name=Windows 10
+2016-11-27 19:49:18,056 [myid:] - INFO  [main:Environment@97] - Client environment:os.arch=amd64
+2016-11-27 19:49:18,056 [myid:] - INFO  [main:Environment@97] - Client environment:os.version=10.0
+2016-11-27 19:49:18,056 [myid:] - INFO  [main:Environment@97] - Client environment:user.name=guilhermeosaka
+2016-11-27 19:49:18,056 [myid:] - INFO  [main:Environment@97] - Client environment:user.home=C:\Users\guilhermeosaka
+2016-11-27 19:49:18,056 [myid:] - INFO  [main:Environment@97] - Client environment:user.dir=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC
+2016-11-27 19:49:18,058 [myid:] - INFO  [main:ZooKeeper@373] - Initiating client connection, connectString=localhost sessionTimeout=3600 watcher=Broker$1@37a71e93
+2016-11-27 19:49:18,061 [myid:] - DEBUG [main:ClientCnxn@96] - zookeeper.disableAutoWatchReset is false
+2016-11-27 19:49:18,198 [myid:] - INFO  [main-SendThread():ClientCnxn$SendThread@1000] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181
+2016-11-27 19:49:18,201 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@908] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2016-11-27 19:49:18,203 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@955] - Session establishment request sent on localhost/0:0:0:0:0:0:0:1:2181
+2016-11-27 19:49:18,455 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@701] - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x158a787a1260014, negotiated timeout = 4000
+2016-11-27 19:49:18,507 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@797] - Reading reply sessionid:0x158a787a1260014, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,62,0  request:: '/caminho,,v{s{31,s{'world,'anyone}}},1  response:: '/caminho 
+2016-11-27 19:49:19,793 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a1260014 after 1ms
+2016-11-27 19:49:21,127 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a1260014 after 1ms
+2016-11-27 19:49:22,462 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a1260014 after 1ms
+2016-11-27 19:49:52,516 [myid:] - INFO  [main:Environment@97] - Client environment:zookeeper.version=3.3.1-942149, built on 05/07/2010 17:14 GMT
+2016-11-27 19:49:52,521 [myid:] - INFO  [main:Environment@97] - Client environment:host.name=DESKTOP-GEJKOL3.Home
+2016-11-27 19:49:52,521 [myid:] - INFO  [main:Environment@97] - Client environment:java.version=1.8.0_111
+2016-11-27 19:49:52,521 [myid:] - INFO  [main:Environment@97] - Client environment:java.vendor=Oracle Corporation
+2016-11-27 19:49:52,523 [myid:] - INFO  [main:Environment@97] - Client environment:java.home=C:\Program Files\Java\jre1.8.0_111
+2016-11-27 19:49:52,523 [myid:] - INFO  [main:Environment@97] - Client environment:java.class.path=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC\bin;C:\Users\guilhermeosaka\Desktop\zookeeper.jar;C:\Users\guilhermeosaka\Desktop\log4j-1.2.17.jar
+2016-11-27 19:49:52,523 [myid:] - INFO  [main:Environment@97] - Client environment:java.library.path=C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Users\guilhermeosaka\AppData\Local\Microsoft\WindowsApps;;C:\Windows\system32;;.
+2016-11-27 19:49:52,524 [myid:] - INFO  [main:Environment@97] - Client environment:java.io.tmpdir=C:\Users\GUILHE~1\AppData\Local\Temp\
+2016-11-27 19:49:52,524 [myid:] - INFO  [main:Environment@97] - Client environment:java.compiler=<NA>
+2016-11-27 19:49:52,524 [myid:] - INFO  [main:Environment@97] - Client environment:os.name=Windows 10
+2016-11-27 19:49:52,524 [myid:] - INFO  [main:Environment@97] - Client environment:os.arch=amd64
+2016-11-27 19:49:52,524 [myid:] - INFO  [main:Environment@97] - Client environment:os.version=10.0
+2016-11-27 19:49:52,524 [myid:] - INFO  [main:Environment@97] - Client environment:user.name=guilhermeosaka
+2016-11-27 19:49:52,524 [myid:] - INFO  [main:Environment@97] - Client environment:user.home=C:\Users\guilhermeosaka
+2016-11-27 19:49:52,524 [myid:] - INFO  [main:Environment@97] - Client environment:user.dir=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC
+2016-11-27 19:49:52,526 [myid:] - INFO  [main:ZooKeeper@373] - Initiating client connection, connectString=localhost sessionTimeout=3600 watcher=Broker$1@37a71e93
+2016-11-27 19:49:52,529 [myid:] - DEBUG [main:ClientCnxn@96] - zookeeper.disableAutoWatchReset is false
+2016-11-27 19:49:52,667 [myid:] - INFO  [main-SendThread():ClientCnxn$SendThread@1000] - Opening socket connection to server localhost/127.0.0.1:2181
+2016-11-27 19:49:52,669 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@908] - Socket connection established to localhost/127.0.0.1:2181, initiating session
+2016-11-27 19:49:52,672 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@955] - Session establishment request sent on localhost/127.0.0.1:2181
+2016-11-27 19:49:52,731 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@701] - Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x158a787a1260015, negotiated timeout = 4000
+2016-11-27 19:49:52,756 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@797] - Reading reply sessionid:0x158a787a1260015, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,65,0  request:: '/caminho,,v{s{31,s{'world,'anyone}}},1  response:: '/caminho 
+2016-11-27 19:49:54,067 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a1260015 after 1ms
+2016-11-27 19:49:55,400 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a1260015 after 1ms
+2016-11-27 19:49:56,734 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a1260015 after 1ms
+2016-11-27 19:49:58,067 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a1260015 after 1ms
+2016-11-27 19:49:59,401 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a1260015 after 0ms
+2016-11-27 19:50:00,735 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a1260015 after 1ms
+2016-11-27 19:50:02,069 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a1260015 after 2ms
+2016-11-27 19:50:03,403 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a1260015 after 1ms
+2016-11-27 19:50:04,737 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a1260015 after 1ms
+2016-11-27 19:50:06,072 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a1260015 after 2ms
+2016-11-27 19:50:07,405 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a1260015 after 1ms
+2016-11-27 19:50:08,740 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a787a1260015 after 1ms
+2016-11-27 19:52:48,668 [myid:] - INFO  [main:Environment@97] - Client environment:zookeeper.version=3.3.1-942149, built on 05/07/2010 17:14 GMT
+2016-11-27 19:52:48,672 [myid:] - INFO  [main:Environment@97] - Client environment:host.name=DESKTOP-GEJKOL3.Home
+2016-11-27 19:52:48,672 [myid:] - INFO  [main:Environment@97] - Client environment:java.version=1.8.0_111
+2016-11-27 19:52:48,672 [myid:] - INFO  [main:Environment@97] - Client environment:java.vendor=Oracle Corporation
+2016-11-27 19:52:48,674 [myid:] - INFO  [main:Environment@97] - Client environment:java.home=C:\Program Files\Java\jre1.8.0_111
+2016-11-27 19:52:48,674 [myid:] - INFO  [main:Environment@97] - Client environment:java.class.path=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC\bin;C:\Users\guilhermeosaka\Desktop\zookeeper.jar;C:\Users\guilhermeosaka\Desktop\log4j-1.2.17.jar
+2016-11-27 19:52:48,675 [myid:] - INFO  [main:Environment@97] - Client environment:java.library.path=C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Users\guilhermeosaka\AppData\Local\Microsoft\WindowsApps;;C:\Windows\system32;;.
+2016-11-27 19:52:48,675 [myid:] - INFO  [main:Environment@97] - Client environment:java.io.tmpdir=C:\Users\GUILHE~1\AppData\Local\Temp\
+2016-11-27 19:52:48,675 [myid:] - INFO  [main:Environment@97] - Client environment:java.compiler=<NA>
+2016-11-27 19:52:48,675 [myid:] - INFO  [main:Environment@97] - Client environment:os.name=Windows 10
+2016-11-27 19:52:48,675 [myid:] - INFO  [main:Environment@97] - Client environment:os.arch=amd64
+2016-11-27 19:52:48,675 [myid:] - INFO  [main:Environment@97] - Client environment:os.version=10.0
+2016-11-27 19:52:48,675 [myid:] - INFO  [main:Environment@97] - Client environment:user.name=guilhermeosaka
+2016-11-27 19:52:48,676 [myid:] - INFO  [main:Environment@97] - Client environment:user.home=C:\Users\guilhermeosaka
+2016-11-27 19:52:48,676 [myid:] - INFO  [main:Environment@97] - Client environment:user.dir=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC
+2016-11-27 19:52:48,677 [myid:] - INFO  [main:ZooKeeper@373] - Initiating client connection, connectString=localhost sessionTimeout=3600 watcher=Broker$1@37a71e93
+2016-11-27 19:52:48,680 [myid:] - DEBUG [main:ClientCnxn@96] - zookeeper.disableAutoWatchReset is false
+2016-11-27 19:52:48,819 [myid:] - INFO  [main-SendThread():ClientCnxn$SendThread@1000] - Opening socket connection to server localhost/127.0.0.1:2181
+2016-11-27 19:52:48,822 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@908] - Socket connection established to localhost/127.0.0.1:2181, initiating session
+2016-11-27 19:52:48,825 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@955] - Session establishment request sent on localhost/127.0.0.1:2181
+2016-11-27 19:52:52,421 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@1116] - Client session timed out, have not heard from server in 3600ms for sessionid 0x0, closing socket connection and attempting reconnect
+2016-11-27 19:52:52,794 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@1000] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181
+2016-11-27 19:52:52,796 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@908] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2016-11-27 19:52:52,797 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@955] - Session establishment request sent on localhost/0:0:0:0:0:0:0:1:2181
+2016-11-27 19:52:58,253 [myid:] - INFO  [main:Environment@97] - Client environment:zookeeper.version=3.3.1-942149, built on 05/07/2010 17:14 GMT
+2016-11-27 19:52:58,258 [myid:] - INFO  [main:Environment@97] - Client environment:host.name=DESKTOP-GEJKOL3.Home
+2016-11-27 19:52:58,258 [myid:] - INFO  [main:Environment@97] - Client environment:java.version=1.8.0_111
+2016-11-27 19:52:58,258 [myid:] - INFO  [main:Environment@97] - Client environment:java.vendor=Oracle Corporation
+2016-11-27 19:52:58,260 [myid:] - INFO  [main:Environment@97] - Client environment:java.home=C:\Program Files\Java\jre1.8.0_111
+2016-11-27 19:52:58,260 [myid:] - INFO  [main:Environment@97] - Client environment:java.class.path=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC\bin;C:\Users\guilhermeosaka\Desktop\zookeeper.jar;C:\Users\guilhermeosaka\Desktop\log4j-1.2.17.jar
+2016-11-27 19:52:58,260 [myid:] - INFO  [main:Environment@97] - Client environment:java.library.path=C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Users\guilhermeosaka\AppData\Local\Microsoft\WindowsApps;;C:\Windows\system32;;.
+2016-11-27 19:52:58,260 [myid:] - INFO  [main:Environment@97] - Client environment:java.io.tmpdir=C:\Users\GUILHE~1\AppData\Local\Temp\
+2016-11-27 19:52:58,260 [myid:] - INFO  [main:Environment@97] - Client environment:java.compiler=<NA>
+2016-11-27 19:52:58,260 [myid:] - INFO  [main:Environment@97] - Client environment:os.name=Windows 10
+2016-11-27 19:52:58,261 [myid:] - INFO  [main:Environment@97] - Client environment:os.arch=amd64
+2016-11-27 19:52:58,261 [myid:] - INFO  [main:Environment@97] - Client environment:os.version=10.0
+2016-11-27 19:52:58,261 [myid:] - INFO  [main:Environment@97] - Client environment:user.name=guilhermeosaka
+2016-11-27 19:52:58,261 [myid:] - INFO  [main:Environment@97] - Client environment:user.home=C:\Users\guilhermeosaka
+2016-11-27 19:52:58,261 [myid:] - INFO  [main:Environment@97] - Client environment:user.dir=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC
+2016-11-27 19:52:58,262 [myid:] - INFO  [main:ZooKeeper@373] - Initiating client connection, connectString=localhost sessionTimeout=3600 watcher=Broker$1@37a71e93
+2016-11-27 19:52:58,266 [myid:] - DEBUG [main:ClientCnxn@96] - zookeeper.disableAutoWatchReset is false
+2016-11-27 19:52:58,403 [myid:] - INFO  [main-SendThread():ClientCnxn$SendThread@1000] - Opening socket connection to server localhost/127.0.0.1:2181
+2016-11-27 19:52:58,407 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@908] - Socket connection established to localhost/127.0.0.1:2181, initiating session
+2016-11-27 19:52:58,410 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@955] - Session establishment request sent on localhost/127.0.0.1:2181
+2016-11-27 19:53:02,007 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@1116] - Client session timed out, have not heard from server in 3601ms for sessionid 0x0, closing socket connection and attempting reconnect
+2016-11-27 19:53:02,349 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@1000] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181
+2016-11-27 19:53:02,351 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@908] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2016-11-27 19:53:02,351 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@955] - Session establishment request sent on localhost/0:0:0:0:0:0:0:1:2181
+2016-11-27 19:53:05,950 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@1116] - Client session timed out, have not heard from server in 3600ms for sessionid 0x0, closing socket connection and attempting reconnect
+2016-11-27 19:53:06,396 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@1000] - Opening socket connection to server localhost/127.0.0.1:2181
+2016-11-27 19:53:06,397 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@908] - Socket connection established to localhost/127.0.0.1:2181, initiating session
+2016-11-27 19:53:06,398 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@955] - Session establishment request sent on localhost/127.0.0.1:2181
+2016-11-27 19:53:09,997 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@1116] - Client session timed out, have not heard from server in 3600ms for sessionid 0x0, closing socket connection and attempting reconnect
+2016-11-27 19:53:10,814 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@1000] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181
+2016-11-27 19:53:10,816 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@908] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2016-11-27 19:53:10,816 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@955] - Session establishment request sent on localhost/0:0:0:0:0:0:0:1:2181
+2016-11-27 19:53:14,417 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@1116] - Client session timed out, have not heard from server in 3601ms for sessionid 0x0, closing socket connection and attempting reconnect
+2016-11-27 19:53:15,188 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@1000] - Opening socket connection to server localhost/127.0.0.1:2181
+2016-11-27 19:53:15,190 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@908] - Socket connection established to localhost/127.0.0.1:2181, initiating session
+2016-11-27 19:53:15,190 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@955] - Session establishment request sent on localhost/127.0.0.1:2181
+2016-11-27 19:53:18,790 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@1116] - Client session timed out, have not heard from server in 3600ms for sessionid 0x0, closing socket connection and attempting reconnect
+2016-11-27 19:53:19,698 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@1000] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181
+2016-11-27 19:53:19,700 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@908] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2016-11-27 19:53:19,701 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@955] - Session establishment request sent on localhost/0:0:0:0:0:0:0:1:2181
+2016-11-27 19:53:25,855 [myid:] - INFO  [main:Environment@97] - Client environment:zookeeper.version=3.3.1-942149, built on 05/07/2010 17:14 GMT
+2016-11-27 19:53:25,860 [myid:] - INFO  [main:Environment@97] - Client environment:host.name=DESKTOP-GEJKOL3.Home
+2016-11-27 19:53:25,860 [myid:] - INFO  [main:Environment@97] - Client environment:java.version=1.8.0_111
+2016-11-27 19:53:25,860 [myid:] - INFO  [main:Environment@97] - Client environment:java.vendor=Oracle Corporation
+2016-11-27 19:53:25,862 [myid:] - INFO  [main:Environment@97] - Client environment:java.home=C:\Program Files\Java\jre1.8.0_111
+2016-11-27 19:53:25,862 [myid:] - INFO  [main:Environment@97] - Client environment:java.class.path=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC\bin;C:\Users\guilhermeosaka\Desktop\zookeeper.jar;C:\Users\guilhermeosaka\Desktop\log4j-1.2.17.jar
+2016-11-27 19:53:25,862 [myid:] - INFO  [main:Environment@97] - Client environment:java.library.path=C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Users\guilhermeosaka\AppData\Local\Microsoft\WindowsApps;;C:\Windows\system32;;.
+2016-11-27 19:53:25,862 [myid:] - INFO  [main:Environment@97] - Client environment:java.io.tmpdir=C:\Users\GUILHE~1\AppData\Local\Temp\
+2016-11-27 19:53:25,863 [myid:] - INFO  [main:Environment@97] - Client environment:java.compiler=<NA>
+2016-11-27 19:53:25,863 [myid:] - INFO  [main:Environment@97] - Client environment:os.name=Windows 10
+2016-11-27 19:53:25,863 [myid:] - INFO  [main:Environment@97] - Client environment:os.arch=amd64
+2016-11-27 19:53:25,863 [myid:] - INFO  [main:Environment@97] - Client environment:os.version=10.0
+2016-11-27 19:53:25,863 [myid:] - INFO  [main:Environment@97] - Client environment:user.name=guilhermeosaka
+2016-11-27 19:53:25,863 [myid:] - INFO  [main:Environment@97] - Client environment:user.home=C:\Users\guilhermeosaka
+2016-11-27 19:53:25,863 [myid:] - INFO  [main:Environment@97] - Client environment:user.dir=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC
+2016-11-27 19:53:25,864 [myid:] - INFO  [main:ZooKeeper@373] - Initiating client connection, connectString=localhost sessionTimeout=3600 watcher=Broker$1@37a71e93
+2016-11-27 19:53:25,868 [myid:] - DEBUG [main:ClientCnxn@96] - zookeeper.disableAutoWatchReset is false
+2016-11-27 19:53:26,005 [myid:] - INFO  [main-SendThread():ClientCnxn$SendThread@1000] - Opening socket connection to server localhost/127.0.0.1:2181
+2016-11-27 19:53:26,007 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@908] - Socket connection established to localhost/127.0.0.1:2181, initiating session
+2016-11-27 19:53:26,009 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@955] - Session establishment request sent on localhost/127.0.0.1:2181
+2016-11-27 19:53:29,606 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@1116] - Client session timed out, have not heard from server in 3600ms for sessionid 0x0, closing socket connection and attempting reconnect
+2016-11-27 19:53:30,156 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@1000] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181
+2016-11-27 19:53:30,158 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@908] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2016-11-27 19:53:30,159 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@955] - Session establishment request sent on localhost/0:0:0:0:0:0:0:1:2181
+2016-11-27 19:53:33,759 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@1116] - Client session timed out, have not heard from server in 3601ms for sessionid 0x0, closing socket connection and attempting reconnect
+2016-11-27 19:53:33,934 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@1000] - Opening socket connection to server localhost/127.0.0.1:2181
+2016-11-27 19:53:33,934 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@908] - Socket connection established to localhost/127.0.0.1:2181, initiating session
+2016-11-27 19:53:33,935 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@955] - Session establishment request sent on localhost/127.0.0.1:2181
+2016-11-27 19:53:37,535 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@1116] - Client session timed out, have not heard from server in 3601ms for sessionid 0x0, closing socket connection and attempting reconnect
+2016-11-27 19:53:38,552 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@1000] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181
+2016-11-27 19:53:38,554 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@908] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2016-11-27 19:53:38,555 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@955] - Session establishment request sent on localhost/0:0:0:0:0:0:0:1:2181
+2016-11-27 19:53:42,156 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@1116] - Client session timed out, have not heard from server in 3602ms for sessionid 0x0, closing socket connection and attempting reconnect
+2016-11-27 19:53:42,651 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@1000] - Opening socket connection to server localhost/127.0.0.1:2181
+2016-11-27 19:53:42,653 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@908] - Socket connection established to localhost/127.0.0.1:2181, initiating session
+2016-11-27 19:53:42,653 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@955] - Session establishment request sent on localhost/127.0.0.1:2181
+2016-11-27 19:53:46,253 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@1116] - Client session timed out, have not heard from server in 3600ms for sessionid 0x0, closing socket connection and attempting reconnect
+2016-11-27 19:53:46,948 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@1000] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181
+2016-11-27 19:53:46,949 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@908] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2016-11-27 19:53:46,949 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@955] - Session establishment request sent on localhost/0:0:0:0:0:0:0:1:2181
+2016-11-27 19:53:50,549 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@1116] - Client session timed out, have not heard from server in 3600ms for sessionid 0x0, closing socket connection and attempting reconnect
+2016-11-27 19:53:51,011 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@1000] - Opening socket connection to server localhost/127.0.0.1:2181
+2016-11-27 19:53:51,012 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@908] - Socket connection established to localhost/127.0.0.1:2181, initiating session
+2016-11-27 19:53:51,012 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@955] - Session establishment request sent on localhost/127.0.0.1:2181
+2016-11-27 19:53:54,612 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@1116] - Client session timed out, have not heard from server in 3600ms for sessionid 0x0, closing socket connection and attempting reconnect
+2016-11-27 19:53:55,609 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@1000] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181
+2016-11-27 19:53:55,611 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@908] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2016-11-27 19:53:55,612 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@955] - Session establishment request sent on localhost/0:0:0:0:0:0:0:1:2181
+2016-11-27 19:53:59,211 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@1116] - Client session timed out, have not heard from server in 3601ms for sessionid 0x0, closing socket connection and attempting reconnect
+2016-11-27 19:53:59,356 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@1000] - Opening socket connection to server localhost/127.0.0.1:2181
+2016-11-27 19:53:59,358 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@908] - Socket connection established to localhost/127.0.0.1:2181, initiating session
+2016-11-27 19:53:59,359 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@955] - Session establishment request sent on localhost/127.0.0.1:2181
+2016-11-27 19:54:13,219 [myid:] - INFO  [main:Environment@97] - Client environment:zookeeper.version=3.3.1-942149, built on 05/07/2010 17:14 GMT
+2016-11-27 19:54:13,223 [myid:] - INFO  [main:Environment@97] - Client environment:host.name=DESKTOP-GEJKOL3.Home
+2016-11-27 19:54:13,223 [myid:] - INFO  [main:Environment@97] - Client environment:java.version=1.8.0_111
+2016-11-27 19:54:13,223 [myid:] - INFO  [main:Environment@97] - Client environment:java.vendor=Oracle Corporation
+2016-11-27 19:54:13,225 [myid:] - INFO  [main:Environment@97] - Client environment:java.home=C:\Program Files\Java\jre1.8.0_111
+2016-11-27 19:54:13,225 [myid:] - INFO  [main:Environment@97] - Client environment:java.class.path=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC\bin;C:\Users\guilhermeosaka\Desktop\zookeeper.jar;C:\Users\guilhermeosaka\Desktop\log4j-1.2.17.jar
+2016-11-27 19:54:13,226 [myid:] - INFO  [main:Environment@97] - Client environment:java.library.path=C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Users\guilhermeosaka\AppData\Local\Microsoft\WindowsApps;;C:\Windows\system32;;.
+2016-11-27 19:54:13,226 [myid:] - INFO  [main:Environment@97] - Client environment:java.io.tmpdir=C:\Users\GUILHE~1\AppData\Local\Temp\
+2016-11-27 19:54:13,226 [myid:] - INFO  [main:Environment@97] - Client environment:java.compiler=<NA>
+2016-11-27 19:54:13,226 [myid:] - INFO  [main:Environment@97] - Client environment:os.name=Windows 10
+2016-11-27 19:54:13,226 [myid:] - INFO  [main:Environment@97] - Client environment:os.arch=amd64
+2016-11-27 19:54:13,226 [myid:] - INFO  [main:Environment@97] - Client environment:os.version=10.0
+2016-11-27 19:54:13,226 [myid:] - INFO  [main:Environment@97] - Client environment:user.name=guilhermeosaka
+2016-11-27 19:54:13,227 [myid:] - INFO  [main:Environment@97] - Client environment:user.home=C:\Users\guilhermeosaka
+2016-11-27 19:54:13,227 [myid:] - INFO  [main:Environment@97] - Client environment:user.dir=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC
+2016-11-27 19:54:13,228 [myid:] - INFO  [main:ZooKeeper@373] - Initiating client connection, connectString=localhost sessionTimeout=60000 watcher=Broker$1@37a71e93
+2016-11-27 19:54:13,232 [myid:] - DEBUG [main:ClientCnxn@96] - zookeeper.disableAutoWatchReset is false
+2016-11-27 19:54:13,369 [myid:] - INFO  [main-SendThread():ClientCnxn$SendThread@1000] - Opening socket connection to server localhost/127.0.0.1:2181
+2016-11-27 19:54:13,371 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@908] - Socket connection established to localhost/127.0.0.1:2181, initiating session
+2016-11-27 19:54:13,373 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@955] - Session establishment request sent on localhost/127.0.0.1:2181
+2016-11-27 19:55:00,452 [myid:] - INFO  [main:Environment@97] - Client environment:zookeeper.version=3.3.1-942149, built on 05/07/2010 17:14 GMT
+2016-11-27 19:55:00,457 [myid:] - INFO  [main:Environment@97] - Client environment:host.name=DESKTOP-GEJKOL3.Home
+2016-11-27 19:55:00,458 [myid:] - INFO  [main:Environment@97] - Client environment:java.version=1.8.0_111
+2016-11-27 19:55:00,458 [myid:] - INFO  [main:Environment@97] - Client environment:java.vendor=Oracle Corporation
+2016-11-27 19:55:00,459 [myid:] - INFO  [main:Environment@97] - Client environment:java.home=C:\Program Files\Java\jre1.8.0_111
+2016-11-27 19:55:00,459 [myid:] - INFO  [main:Environment@97] - Client environment:java.class.path=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC\bin;C:\Users\guilhermeosaka\Desktop\zookeeper.jar;C:\Users\guilhermeosaka\Desktop\log4j-1.2.17.jar
+2016-11-27 19:55:00,460 [myid:] - INFO  [main:Environment@97] - Client environment:java.library.path=C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Users\guilhermeosaka\AppData\Local\Microsoft\WindowsApps;;C:\Windows\system32;;.
+2016-11-27 19:55:00,460 [myid:] - INFO  [main:Environment@97] - Client environment:java.io.tmpdir=C:\Users\GUILHE~1\AppData\Local\Temp\
+2016-11-27 19:55:00,460 [myid:] - INFO  [main:Environment@97] - Client environment:java.compiler=<NA>
+2016-11-27 19:55:00,461 [myid:] - INFO  [main:Environment@97] - Client environment:os.name=Windows 10
+2016-11-27 19:55:00,461 [myid:] - INFO  [main:Environment@97] - Client environment:os.arch=amd64
+2016-11-27 19:55:00,461 [myid:] - INFO  [main:Environment@97] - Client environment:os.version=10.0
+2016-11-27 19:55:00,461 [myid:] - INFO  [main:Environment@97] - Client environment:user.name=guilhermeosaka
+2016-11-27 19:55:00,461 [myid:] - INFO  [main:Environment@97] - Client environment:user.home=C:\Users\guilhermeosaka
+2016-11-27 19:55:00,461 [myid:] - INFO  [main:Environment@97] - Client environment:user.dir=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC
+2016-11-27 19:55:00,462 [myid:] - INFO  [main:ZooKeeper@373] - Initiating client connection, connectString=localhost sessionTimeout=60000 watcher=Broker$1@37a71e93
+2016-11-27 19:55:00,466 [myid:] - DEBUG [main:ClientCnxn@96] - zookeeper.disableAutoWatchReset is false
+2016-11-27 19:55:00,601 [myid:] - INFO  [main-SendThread():ClientCnxn$SendThread@1000] - Opening socket connection to server localhost/127.0.0.1:2181
+2016-11-27 19:55:00,603 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@908] - Socket connection established to localhost/127.0.0.1:2181, initiating session
+2016-11-27 19:55:00,605 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@955] - Session establishment request sent on localhost/127.0.0.1:2181
+2016-11-27 19:55:23,802 [myid:] - INFO  [main:Environment@97] - Client environment:zookeeper.version=3.3.1-942149, built on 05/07/2010 17:14 GMT
+2016-11-27 19:55:23,807 [myid:] - INFO  [main:Environment@97] - Client environment:host.name=DESKTOP-GEJKOL3.Home
+2016-11-27 19:55:23,807 [myid:] - INFO  [main:Environment@97] - Client environment:java.version=1.8.0_111
+2016-11-27 19:55:23,807 [myid:] - INFO  [main:Environment@97] - Client environment:java.vendor=Oracle Corporation
+2016-11-27 19:55:23,809 [myid:] - INFO  [main:Environment@97] - Client environment:java.home=C:\Program Files\Java\jre1.8.0_111
+2016-11-27 19:55:23,809 [myid:] - INFO  [main:Environment@97] - Client environment:java.class.path=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC\bin;C:\Users\guilhermeosaka\Desktop\zookeeper.jar;C:\Users\guilhermeosaka\Desktop\log4j-1.2.17.jar
+2016-11-27 19:55:23,809 [myid:] - INFO  [main:Environment@97] - Client environment:java.library.path=C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Users\guilhermeosaka\AppData\Local\Microsoft\WindowsApps;;C:\Windows\system32;;.
+2016-11-27 19:55:23,809 [myid:] - INFO  [main:Environment@97] - Client environment:java.io.tmpdir=C:\Users\GUILHE~1\AppData\Local\Temp\
+2016-11-27 19:55:23,810 [myid:] - INFO  [main:Environment@97] - Client environment:java.compiler=<NA>
+2016-11-27 19:55:23,810 [myid:] - INFO  [main:Environment@97] - Client environment:os.name=Windows 10
+2016-11-27 19:55:23,810 [myid:] - INFO  [main:Environment@97] - Client environment:os.arch=amd64
+2016-11-27 19:55:23,810 [myid:] - INFO  [main:Environment@97] - Client environment:os.version=10.0
+2016-11-27 19:55:23,810 [myid:] - INFO  [main:Environment@97] - Client environment:user.name=guilhermeosaka
+2016-11-27 19:55:23,810 [myid:] - INFO  [main:Environment@97] - Client environment:user.home=C:\Users\guilhermeosaka
+2016-11-27 19:55:23,810 [myid:] - INFO  [main:Environment@97] - Client environment:user.dir=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC
+2016-11-27 19:55:23,812 [myid:] - INFO  [main:ZooKeeper@373] - Initiating client connection, connectString=localhost sessionTimeout=60000 watcher=Broker$1@37a71e93
+2016-11-27 19:55:23,816 [myid:] - DEBUG [main:ClientCnxn@96] - zookeeper.disableAutoWatchReset is false
+2016-11-27 19:55:23,949 [myid:] - INFO  [main-SendThread():ClientCnxn$SendThread@1000] - Opening socket connection to server localhost/127.0.0.1:2181
+2016-11-27 19:55:23,951 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@908] - Socket connection established to localhost/127.0.0.1:2181, initiating session
+2016-11-27 19:55:23,954 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@955] - Session establishment request sent on localhost/127.0.0.1:2181
+2016-11-27 19:55:24,045 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@701] - Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x158a7c90cb40000, negotiated timeout = 40000
+2016-11-27 19:55:24,080 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@797] - Reading reply sessionid:0x158a7c90cb40000, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,68,0  request:: '/caminho,,v{s{31,s{'world,'anyone}}},1  response:: '/caminho 
+2016-11-27 19:55:37,380 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a7c90cb40000 after 2ms
+2016-11-27 19:55:51,362 [myid:] - INFO  [main:Environment@97] - Client environment:zookeeper.version=3.3.1-942149, built on 05/07/2010 17:14 GMT
+2016-11-27 19:55:51,366 [myid:] - INFO  [main:Environment@97] - Client environment:host.name=DESKTOP-GEJKOL3.Home
+2016-11-27 19:55:51,366 [myid:] - INFO  [main:Environment@97] - Client environment:java.version=1.8.0_111
+2016-11-27 19:55:51,366 [myid:] - INFO  [main:Environment@97] - Client environment:java.vendor=Oracle Corporation
+2016-11-27 19:55:51,368 [myid:] - INFO  [main:Environment@97] - Client environment:java.home=C:\Program Files\Java\jre1.8.0_111
+2016-11-27 19:55:51,368 [myid:] - INFO  [main:Environment@97] - Client environment:java.class.path=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC\bin;C:\Users\guilhermeosaka\Desktop\zookeeper.jar;C:\Users\guilhermeosaka\Desktop\log4j-1.2.17.jar
+2016-11-27 19:55:51,369 [myid:] - INFO  [main:Environment@97] - Client environment:java.library.path=C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Users\guilhermeosaka\AppData\Local\Microsoft\WindowsApps;;C:\Windows\system32;;.
+2016-11-27 19:55:51,369 [myid:] - INFO  [main:Environment@97] - Client environment:java.io.tmpdir=C:\Users\GUILHE~1\AppData\Local\Temp\
+2016-11-27 19:55:51,369 [myid:] - INFO  [main:Environment@97] - Client environment:java.compiler=<NA>
+2016-11-27 19:55:51,369 [myid:] - INFO  [main:Environment@97] - Client environment:os.name=Windows 10
+2016-11-27 19:55:51,369 [myid:] - INFO  [main:Environment@97] - Client environment:os.arch=amd64
+2016-11-27 19:55:51,369 [myid:] - INFO  [main:Environment@97] - Client environment:os.version=10.0
+2016-11-27 19:55:51,369 [myid:] - INFO  [main:Environment@97] - Client environment:user.name=guilhermeosaka
+2016-11-27 19:55:51,369 [myid:] - INFO  [main:Environment@97] - Client environment:user.home=C:\Users\guilhermeosaka
+2016-11-27 19:55:51,370 [myid:] - INFO  [main:Environment@97] - Client environment:user.dir=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC
+2016-11-27 19:55:51,371 [myid:] - INFO  [main:ZooKeeper@373] - Initiating client connection, connectString=localhost sessionTimeout=60000 watcher=Broker$1@37a71e93
+2016-11-27 19:55:51,375 [myid:] - DEBUG [main:ClientCnxn@96] - zookeeper.disableAutoWatchReset is false
+2016-11-27 19:55:51,511 [myid:] - INFO  [main-SendThread():ClientCnxn$SendThread@1000] - Opening socket connection to server localhost/127.0.0.1:2181
+2016-11-27 19:55:51,514 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@908] - Socket connection established to localhost/127.0.0.1:2181, initiating session
+2016-11-27 19:55:51,517 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@955] - Session establishment request sent on localhost/127.0.0.1:2181
+2016-11-27 19:55:51,553 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@701] - Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x158a7c90cb40001, negotiated timeout = 40000
+2016-11-27 19:55:51,581 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@797] - Reading reply sessionid:0x158a7c90cb40001, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,70,-110  request:: '/caminho,,v{s{31,s{'world,'anyone}}},1  response::  
+2016-11-27 19:56:07,153 [myid:] - INFO  [main:Environment@97] - Client environment:zookeeper.version=3.3.1-942149, built on 05/07/2010 17:14 GMT
+2016-11-27 19:56:07,157 [myid:] - INFO  [main:Environment@97] - Client environment:host.name=DESKTOP-GEJKOL3.Home
+2016-11-27 19:56:07,157 [myid:] - INFO  [main:Environment@97] - Client environment:java.version=1.8.0_111
+2016-11-27 19:56:07,157 [myid:] - INFO  [main:Environment@97] - Client environment:java.vendor=Oracle Corporation
+2016-11-27 19:56:07,160 [myid:] - INFO  [main:Environment@97] - Client environment:java.home=C:\Program Files\Java\jre1.8.0_111
+2016-11-27 19:56:07,160 [myid:] - INFO  [main:Environment@97] - Client environment:java.class.path=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC\bin;C:\Users\guilhermeosaka\Desktop\zookeeper.jar;C:\Users\guilhermeosaka\Desktop\log4j-1.2.17.jar
+2016-11-27 19:56:07,160 [myid:] - INFO  [main:Environment@97] - Client environment:java.library.path=C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Users\guilhermeosaka\AppData\Local\Microsoft\WindowsApps;;C:\Windows\system32;;.
+2016-11-27 19:56:07,160 [myid:] - INFO  [main:Environment@97] - Client environment:java.io.tmpdir=C:\Users\GUILHE~1\AppData\Local\Temp\
+2016-11-27 19:56:07,160 [myid:] - INFO  [main:Environment@97] - Client environment:java.compiler=<NA>
+2016-11-27 19:56:07,160 [myid:] - INFO  [main:Environment@97] - Client environment:os.name=Windows 10
+2016-11-27 19:56:07,160 [myid:] - INFO  [main:Environment@97] - Client environment:os.arch=amd64
+2016-11-27 19:56:07,161 [myid:] - INFO  [main:Environment@97] - Client environment:os.version=10.0
+2016-11-27 19:56:07,161 [myid:] - INFO  [main:Environment@97] - Client environment:user.name=guilhermeosaka
+2016-11-27 19:56:07,161 [myid:] - INFO  [main:Environment@97] - Client environment:user.home=C:\Users\guilhermeosaka
+2016-11-27 19:56:07,161 [myid:] - INFO  [main:Environment@97] - Client environment:user.dir=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC
+2016-11-27 19:56:07,162 [myid:] - INFO  [main:ZooKeeper@373] - Initiating client connection, connectString=localhost sessionTimeout=60000 watcher=Broker$1@37a71e93
+2016-11-27 19:56:07,166 [myid:] - DEBUG [main:ClientCnxn@96] - zookeeper.disableAutoWatchReset is false
+2016-11-27 19:56:07,309 [myid:] - INFO  [main-SendThread():ClientCnxn$SendThread@1000] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181
+2016-11-27 19:56:07,311 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@908] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2016-11-27 19:56:07,314 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@955] - Session establishment request sent on localhost/0:0:0:0:0:0:0:1:2181
+2016-11-27 19:56:07,373 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@701] - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x158a7c90cb40002, negotiated timeout = 40000
+2016-11-27 19:56:07,414 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@797] - Reading reply sessionid:0x158a7c90cb40002, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,72,-110  request:: '/caminho,,v{s{31,s{'world,'anyone}}},1  response::  
+2016-11-27 19:56:58,077 [myid:] - INFO  [main:Environment@97] - Client environment:zookeeper.version=3.3.1-942149, built on 05/07/2010 17:14 GMT
+2016-11-27 19:56:58,082 [myid:] - INFO  [main:Environment@97] - Client environment:host.name=DESKTOP-GEJKOL3.Home
+2016-11-27 19:56:58,082 [myid:] - INFO  [main:Environment@97] - Client environment:java.version=1.8.0_111
+2016-11-27 19:56:58,083 [myid:] - INFO  [main:Environment@97] - Client environment:java.vendor=Oracle Corporation
+2016-11-27 19:56:58,085 [myid:] - INFO  [main:Environment@97] - Client environment:java.home=C:\Program Files\Java\jre1.8.0_111
+2016-11-27 19:56:58,085 [myid:] - INFO  [main:Environment@97] - Client environment:java.class.path=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC\bin;C:\Users\guilhermeosaka\Desktop\zookeeper.jar;C:\Users\guilhermeosaka\Desktop\log4j-1.2.17.jar
+2016-11-27 19:56:58,085 [myid:] - INFO  [main:Environment@97] - Client environment:java.library.path=C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Users\guilhermeosaka\AppData\Local\Microsoft\WindowsApps;;C:\Windows\system32;;.
+2016-11-27 19:56:58,085 [myid:] - INFO  [main:Environment@97] - Client environment:java.io.tmpdir=C:\Users\GUILHE~1\AppData\Local\Temp\
+2016-11-27 19:56:58,085 [myid:] - INFO  [main:Environment@97] - Client environment:java.compiler=<NA>
+2016-11-27 19:56:58,085 [myid:] - INFO  [main:Environment@97] - Client environment:os.name=Windows 10
+2016-11-27 19:56:58,085 [myid:] - INFO  [main:Environment@97] - Client environment:os.arch=amd64
+2016-11-27 19:56:58,086 [myid:] - INFO  [main:Environment@97] - Client environment:os.version=10.0
+2016-11-27 19:56:58,086 [myid:] - INFO  [main:Environment@97] - Client environment:user.name=guilhermeosaka
+2016-11-27 19:56:58,086 [myid:] - INFO  [main:Environment@97] - Client environment:user.home=C:\Users\guilhermeosaka
+2016-11-27 19:56:58,086 [myid:] - INFO  [main:Environment@97] - Client environment:user.dir=C:\Users\guilhermeosaka\Projects\sistemas_distribuidos\AuctionUFABC
+2016-11-27 19:56:58,087 [myid:] - INFO  [main:ZooKeeper@373] - Initiating client connection, connectString=localhost sessionTimeout=60000 watcher=Broker$1@7e6cbb7a
+2016-11-27 19:56:58,091 [myid:] - DEBUG [main:ClientCnxn@96] - zookeeper.disableAutoWatchReset is false
+2016-11-27 19:56:58,229 [myid:] - INFO  [main-SendThread():ClientCnxn$SendThread@1000] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181
+2016-11-27 19:56:58,232 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@908] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2016-11-27 19:56:58,235 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@955] - Session establishment request sent on localhost/0:0:0:0:0:0:0:1:2181
+2016-11-27 19:56:58,312 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@701] - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x158a7c90cb40003, negotiated timeout = 40000
+2016-11-27 19:56:58,362 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@797] - Reading reply sessionid:0x158a7c90cb40003, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,77,0  request:: '/caminhoSun Nov 27 19:56:57 BRST 2016,,v{s{31,s{'world,'anyone}}},1  response:: '/caminhoSun Nov 27 19:56:57 BRST 2016 
+2016-11-27 19:57:11,646 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@721] - Got ping response for sessionid: 0x158a7c90cb40003 after 1ms
