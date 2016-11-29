@@ -43,7 +43,7 @@ public class Auctionator {
 	            	System.out.println("Valor deve ser maior ou igual ao lance atual");
 	            }
 	        } catch (Exception e){
-	            System.err.println("Formato inv·lido.");
+	            System.err.println("Formato inv√°lido.");
 	        }
 		}
 	}

@@ -6,7 +6,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 // servidor
-// respons·vel por criar um leil„o
+// respons√°vel por criar um leil√£o
 public class Auctioneer {
 	static final String HOST = "localhost";
 	static final String DATE_PATTERN = "dd/mm/yyyy hh:MM:ss";
@@ -20,7 +20,7 @@ public class Auctioneer {
 		System.out.printf("Lance inicial: ");
 		float startBid = Float.parseFloat(br.readLine());
 		float currentBid = startBid;
-		System.out.printf("Data de inÌcio (%s): ", DATE_PATTERN);
+		System.out.printf("Data de in√≠cio (%s): ", DATE_PATTERN);
 		Date startDate = new SimpleDateFormat(DATE_PATTERN).parse(br.readLine());
 		System.out.printf("Prazo (minutos): ");
 		int deadline = Integer.parseInt(br.readLine());
