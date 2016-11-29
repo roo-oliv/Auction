@@ -1,23 +1,38 @@
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Date;
+import java.util.List;
+
+import org.apache.zookeeper.KeeperException;
 
 // cliente
 public class Auctionator {
 	static final String CONNECTION_STRING = "localhost";
-	// nome do nó, deve possuir uma chave única (timestamp, por exemplo)
-	static final String PATH = "/caminho" + new Date();
 	
-	public static void main(String[] args) {
-		Broker broker = new Broker(CONNECTION_STRING, PATH);
+	public static void main(String[] args) throws NumberFormatException, IOException, KeeperException, InterruptedException, ClassNotFoundException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+		Broker broker = new Broker(CONNECTION_STRING);
 		
+		List<Auction> auctions = broker.getAuctions();
+
+		System.out.println("Escolha um produto para participar:");
+
+		for (int i = 0; i < auctions.size(); i++) {
+			System.out.printf("(%d) Produto: %s\n", i + 1, auctions.get(i).getProduct());
+		}
+
+		int i = Integer.parseInt(br.readLine()) - 1;
+
+		Auction auction = auctions.get(i);
+
 		try {
-			broker.init();
+			broker.connect();
+			broker.participate(auction);
 		} catch (Exception e) {
 			System.out.println(e);
 		}
-
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		while (true) {
 	        try {
 		        System.out.print("Insira seu lance:");
