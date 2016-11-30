@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e34a4e7-acc0-4676-a79f-a823272b9014" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/zookeeper_3_4.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/log4j.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log4j-1.2.17.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zookeeper-3.4.9.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Auction.class" afterPath="$PROJECT_DIR$/bin/Auction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Auctionator.class" afterPath="$PROJECT_DIR$/bin/Auctionator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Auctioneer.class" afterPath="$PROJECT_DIR$/bin/Auctioneer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Broker$1.class" afterPath="$PROJECT_DIR$/bin/Broker$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Broker.class" afterPath="$PROJECT_DIR$/bin/Broker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Auction.iml" afterPath="$PROJECT_DIR$/Auction.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Auction.java" afterPath="$PROJECT_DIR$/src/Auction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Auctionator.java" afterPath="$PROJECT_DIR$/src/Auctionator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Auctioneer.java" afterPath="$PROJECT_DIR$/src/Auctioneer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Broker.java" afterPath="$PROJECT_DIR$/src/Broker.java" />
-    </list>
+    <list default="true" id="8e34a4e7-acc0-4676-a79f-a823272b9014" name="Default" comment="" />
     <ignored path="AuctionUFABC.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -741,12 +723,12 @@
       <option name="presentableId" value="Default" />
       <updated>1480460159578</updated>
       <workItem from="1480460181113" duration="237000" />
-      <workItem from="1480460516860" duration="8472000" />
+      <workItem from="1480460516860" duration="9079000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8709000" />
+    <option name="totallyTimeSpent" value="9316000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1056" extended-state="6" />
@@ -759,7 +741,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />

@@ -1,6 +1,7 @@
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.concurrent.CountDownLatch;
 
@@ -17,6 +18,8 @@ import org.apache.zookeeper.ZooKeeper;
 
 // zookeeper connector
 public class Broker {
+	static final String AUCTIONS_PATH = "/auctions";
+	
 	private String host;
 	private String znode;
 
@@ -49,34 +52,45 @@ public class Broker {
 	}
 
 	public List<Auction> getAuctions() throws KeeperException, InterruptedException, ClassNotFoundException, IOException {
-		List<String> children = zk.getChildren("/", false);
+		List<String> children = zk.getChildren(AUCTIONS_PATH, false);
 
 		List<Auction> auctions = new ArrayList<Auction>();
 
 		for (String child : children) {
 			if (child.startsWith("auction")) {
-				byte[] data = zk.getData("/" + child, false, null);
-				Auction auction = Auction.fromBytes(data);
-				auction.setId(child);
-				auctions.add(auction);
+				byte[] data = zk.getData(AUCTIONS_PATH + "/" + child, false, null);
+				Auction auction = Converter.fromBytes(data);
+				
+				if (auction.getStartDate().after(new Date())) {
+					auction.setId(child);
+					auctions.add(auction);
 				}
+			}
 		}
 
 		return auctions;
 	}
 	
-	// cria um znode sequencial no caminho do produto selecionado e retorna o caminho gerado
-	public void participate(Bid bid) throws KeeperException, InterruptedException, IOException {
-		String path = "/" + bid.getAuction().getId() + "/bid";
-		znode = zk.create(path, Bid.toBytes(bid), Ids.OPEN_ACL_UNSAFE, CreateMode.EPHEMERAL_SEQUENTIAL);
-		bid.setId(znode);
+	// cria um znode sequencial no caminho do produto selecionado
+	public void participate(Auctionator auctionator, Auction auction) throws KeeperException, InterruptedException, IOException {
+		String auctionatorsPath = AUCTIONS_PATH + "/" + auction.getId() + "/auctionators";
+		String auctionatorPath =  zk.create(auctionatorsPath + "/", Converter.toBytes(auctionator), Ids.OPEN_ACL_UNSAFE, CreateMode.EPHEMERAL_SEQUENTIAL);
+		auctionator.setId(auctionatorPath);
+		
+		AuctionBarrier barrier = new AuctionBarrier(auction);
+		barrier.enter();
 	}
 
-	// cria um znode sequencial na raiz, representa um produto a ser leiloado
-	public void auction(Auction auction) throws KeeperException, InterruptedException, IOException {
-		String path = "/auction";
-		znode = zk.create(path, Auction.toBytes(auction), Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT_SEQUENTIAL);
-		auction.setId(znode);
+	// cria um znode sequencial para a auction e dois filhos para os auctionators e os bids
+	public void createAuction(Auction auction) throws KeeperException, InterruptedException, IOException {
+		if (zk.exists(AUCTIONS_PATH, false) == null) 
+			zk.create(AUCTIONS_PATH, null, Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
+
+		String auctionPath = zk.create(AUCTIONS_PATH + "/auction", Auction.toBytes(auction), Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT_SEQUENTIAL);
+
+		zk.create(auctionPath + "/auctionators", null, Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
+		zk.create(auctionPath + "/bids", null, Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
+		auction.setId(auctionPath);
 	}
 	
 	public void updateAuction(Auction auction) throws KeeperException, InterruptedException, IOException {

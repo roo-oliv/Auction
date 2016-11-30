@@ -10,7 +10,7 @@ import java.io.Serializable;
 public class Bid implements Serializable {
 	private String id;
 	private Auction auction;
-	private String owner;
+	private Auctionator auctionator;
 	private float value;
 
 	public void setAuction(Auction auction) {
@@ -29,12 +29,12 @@ public class Bid implements Serializable {
 		return id;
 	}
 
-	public void setOwner(String owner) {
-		this.owner = owner;
+	public void setAuctionator(Auctionator auctionator) {
+		this.auctionator = auctionator;
 	}
 
-	public String getOwner() {
-		return owner;
+	public Auctionator getAuctionator() {
+		return auctionator;
 	}
 
 	public void setValue(float value) {

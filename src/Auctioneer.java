@@ -14,7 +14,7 @@ import org.apache.zookeeper.Watcher;
 // responsável por criar um leilão
 public class Auctioneer implements Watcher {
 	static final String HOST = "localhost";
-	static final String DATE_PATTERN = "dd/mm/yyyy hh:MM:ss";
+	static final String DATE_PATTERN = "dd/MM/yyyy hh:mm:ss";
 	static final CountDownLatch connectedSignal = new CountDownLatch(1);
 
 	Broker broker;
@@ -54,8 +54,8 @@ public class Auctioneer implements Watcher {
 		Broker broker = new Broker(HOST);
 		broker.connect();
 		// cria o nó da auction
-		broker.auction(auction);
-		broker.watchBids(new Auctioneer(broker, auction));
+		broker.createAuction(auction);
+		//broker.watchBids(new Auctioneer(broker, auction));
 		connectedSignal.await();
 	}
 
@@ -86,7 +86,7 @@ public class Auctioneer implements Watcher {
 	 			if (highestBid != null) {
 	 				auction.setCurrentBid(highestBid);
 	 				broker.updateAuction(auction);
-	 				System.out.printf("Maior lance: %s - R$ %.2f\n", auction.getCurrentBid().getOwner(), auction.getCurrentBid().getValue());
+	 				System.out.printf("Maior lance: %s - R$ %.2f\n", "TESTE", auction.getCurrentBid().getValue());
 	 			}
             } catch(Exception ex) {
             	System.out.println(ex.getMessage());
