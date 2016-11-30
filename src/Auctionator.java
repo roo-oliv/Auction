@@ -8,12 +8,16 @@ import org.apache.zookeeper.KeeperException;
 
 // cliente
 public class Auctionator {
-	static final String CONNECTION_STRING = "localhost";
+	static final String HOST = "localhost";
 	
-	public static void main(String[] args) throws NumberFormatException, IOException, KeeperException, InterruptedException, ClassNotFoundException {
+	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-		Broker broker = new Broker(CONNECTION_STRING);
+		System.out.printf("Insira seu nome: ");
+		String userName = br.readLine();
+		
+		Broker broker = new Broker(HOST);
+		broker.connect();
 		
 		List<Auction> auctions = broker.getAuctions();
 
@@ -27,23 +31,20 @@ public class Auctionator {
 
 		Auction auction = auctions.get(i);
 
-		try {
-			broker.connect();
-			broker.participate(auction);
-		} catch (Exception e) {
-			System.out.println(e);
-		}
+		Bid bid = new Bid();
+		bid.setAuction(auction);
+		bid.setOwner(userName);
+		bid.setValue(0);
+
+		broker.participate(bid);
+
 		while (true) {
 	        try {
-		        System.out.print("Insira seu lance:");
-	            float bid = Float.parseFloat(br.readLine());
-	            if (broker.bid(bid)) {
-	             
-	            } else {
-	            	System.out.println("Valor deve ser maior ou igual ao lance atual");
-	            }
+		        System.out.print("Insira seu lance: ");
+	            bid.setValue(Float.parseFloat(br.readLine()));
+	            broker.bid(bid);
 	        } catch (Exception e){
-	            System.err.println("Formato inv√°lido.");
+	            System.err.println("Formato inv·lido.");
 	        }
 		}
 	}

@@ -9,19 +9,19 @@ import java.io.Serializable;
 import java.util.Date;
 
 public class Auction implements Serializable {
-	private String name;
+	private String id;
 	private String product;
-	private float startBid;
-	private float currentBid;
+	private Bid startBid;
+	private Bid currentBid;
 	private Date startDate;
 	private Date endDate;
 
-	public void setName(String name) {
-		this.name = name;
+	public void setId(String id) {
+		this.id = id;
 	}
 
-	public String getName() {
-		return name;
+	public String getId() {
+		return id;
 	}
 
 	public void setProduct(String product) {
@@ -32,19 +32,19 @@ public class Auction implements Serializable {
 		return product;
 	}
 
-	public void setStartBid(float startBid) {
+	public void setStartBid(Bid startBid) {
 		this.startBid = startBid;
 	}
 
-	public float getStartBid() {
+	public Bid getStartBid() {
 		return startBid;
 	}
 
-	public void setCurrentBid(float currentBid) {
+	public void setCurrentBid(Bid currentBid) {
 		this.currentBid = currentBid;
 	}
 
-	public float getCurrentBid() {
+	public Bid getCurrentBid() {
 		return currentBid;
 	}
 
@@ -64,7 +64,7 @@ public class Auction implements Serializable {
 		return endDate;
 	}
 
-	public static Auction fromByte(byte[] data) throws IOException, ClassNotFoundException {
+	public static Auction fromBytes(byte[] data) throws IOException, ClassNotFoundException {
 		ByteArrayInputStream bis = new ByteArrayInputStream(data);
 		ObjectInput in = new ObjectInputStream(bis);
 		Auction auction = (Auction)in.readObject();
@@ -73,7 +73,7 @@ public class Auction implements Serializable {
 		return auction;
 	}
 
-	public static byte[] toByte(Auction auction) throws IOException {
+	public static byte[] toBytes(Auction auction) throws IOException {
 		ByteArrayOutputStream bos = new ByteArrayOutputStream();
 		ObjectOutput out = new ObjectOutputStream(bos);
 		out.writeObject(auction);

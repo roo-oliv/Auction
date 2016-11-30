@@ -1,0 +1,39 @@
+<component name="libraryTable">
+  <library name="zookeeper-3.4">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/zookeeper-3.4.9" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$PROJECT_DIR$/zookeeper-3.4.9/docs/api" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/zookeeper-3.4.9/contrib/ZooInspector/src/java" />
+      <root url="file://$PROJECT_DIR$/zookeeper-3.4.9/contrib/fatjar/src/java" />
+      <root url="file://$PROJECT_DIR$/zookeeper-3.4.9/contrib/loggraph/src/java" />
+      <root url="file://$PROJECT_DIR$/zookeeper-3.4.9/recipes/election/src/java" />
+      <root url="file://$PROJECT_DIR$/zookeeper-3.4.9/recipes/election/test" />
+      <root url="file://$PROJECT_DIR$/zookeeper-3.4.9/recipes/lock/src/java" />
+      <root url="file://$PROJECT_DIR$/zookeeper-3.4.9/recipes/lock/test" />
+      <root url="file://$PROJECT_DIR$/zookeeper-3.4.9/recipes/queue/src/java" />
+      <root url="file://$PROJECT_DIR$/zookeeper-3.4.9/recipes/queue/test" />
+      <root url="file://$PROJECT_DIR$/zookeeper-3.4.9/src/contrib/fatjar/src/java" />
+      <root url="file://$PROJECT_DIR$/zookeeper-3.4.9/src/contrib/loggraph/src/java" />
+      <root url="file://$PROJECT_DIR$/zookeeper-3.4.9/src/contrib/rest/src/java" />
+      <root url="file://$PROJECT_DIR$/zookeeper-3.4.9/src/contrib/rest/src/test" />
+      <root url="file://$PROJECT_DIR$/zookeeper-3.4.9/src/contrib/zooinspector/src/java" />
+      <root url="file://$PROJECT_DIR$/zookeeper-3.4.9/src/java/generated" />
+      <root url="file://$PROJECT_DIR$/zookeeper-3.4.9/src/java/main" />
+      <root url="file://$PROJECT_DIR$/zookeeper-3.4.9/src/java/systest" />
+      <root url="file://$PROJECT_DIR$/zookeeper-3.4.9/src/java/test" />
+      <root url="file://$PROJECT_DIR$/zookeeper-3.4.9/src/recipes/election/src/java" />
+      <root url="file://$PROJECT_DIR$/zookeeper-3.4.9/src/recipes/election/test" />
+      <root url="file://$PROJECT_DIR$/zookeeper-3.4.9/src/recipes/lock/src/java" />
+      <root url="file://$PROJECT_DIR$/zookeeper-3.4.9/src/recipes/lock/test" />
+      <root url="file://$PROJECT_DIR$/zookeeper-3.4.9/src/recipes/queue/src/java" />
+      <root url="file://$PROJECT_DIR$/zookeeper-3.4.9/src/recipes/queue/test" />
+      <root url="file://$PROJECT_DIR$/zookeeper-3.4.9" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/zookeeper-3.4.9" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/zookeeper-3.4.9" recursive="false" type="SOURCES" />
+  </library>
+</component>
