@@ -7,9 +7,11 @@ import java.util.Date;
 import java.util.List;
 
 import org.apache.zookeeper.KeeperException;
+import org.apache.zookeeper.WatchedEvent;
+import org.apache.zookeeper.Watcher;
 
 // cliente
-public class Auctionator implements Serializable {
+public class Auctionator implements Serializable, Watcher {
 	static final String HOST = "localhost";
 	static final String DATE_PATTERN = "dd/MM/yyyy hh:mm:ss";
 	static final Integer mutex = new Integer(-1);
@@ -24,12 +26,16 @@ public class Auctionator implements Serializable {
 	public String getName() { return name; }
 	public void setName(String name) { this.name = name; }
 
+	synchronized public void process(WatchedEvent e) {
+        synchronized (mutex) {
+            mutex.notify();
+        }
+    }
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
 		// TODO: validar nome
 		Auctionator auctionator = new Auctionator();
-		System.out.printf("Insira seu nome de usu·rio: ");
+		System.out.printf("Insira seu nome de usu√°rio: ");
 		auctionator.setName(br.readLine());
 		
 		Broker broker = new Broker(HOST);
@@ -38,81 +44,51 @@ public class Auctionator implements Serializable {
 
 		System.out.println("Escolha um produto para participar:");
 		while (auction == null) {
-			List<Auction> auctions = broker.getAuctions();
-
-			if (auctions.size() > 0) {
-				System.out.println("=========================");
-				for (int i = 0; i < auctions.size(); i++) {
-					if (i > 0)
-						System.out.println("-------------------------");
-					System.out.printf("%-4s Produto: %s\n", "", auctions.get(i).getProduct());
-					System.out.printf("%-4s Lance inicial: R$%.2f\n", "(" + (i + 1) + ")", auctions.get(i).getStartBid().getValue());
-					System.out.printf("%-4s InÌcio: %s - Fim: %s\n", "", 
-						new SimpleDateFormat(DATE_PATTERN).format(auctions.get(i).getStartDate()), 
-						new SimpleDateFormat(DATE_PATTERN).format(auctions.get(i).getEndDate()));
+			synchronized (mutex) {
+				List<Auction> auctions = broker.getAuctions();
+	
+				if (auctions.size() > 0) {
+					System.out.println("=========================");
+					for (int i = 0; i < auctions.size(); i++) {
+						if (i > 0)
+							System.out.println("-------------------------");
+						System.out.printf("%-4s Produto: %s\n", "", auctions.get(i).getProduct());
+						System.out.printf("%-4s Lance inicial: R$%.2f\n", "(" + (i + 1) + ")", auctions.get(i).getStartBid().getValue());
+						System.out.printf("%-4s In√≠cio: %s - Fim: %s\n", "",
+							new SimpleDateFormat(DATE_PATTERN).format(auctions.get(i).getStartDate()), 
+							new SimpleDateFormat(DATE_PATTERN).format(auctions.get(i).getEndDate()));
+					}
+					System.out.println("=========================");
+			
+					int i = Integer.parseInt(br.readLine()) - 1;
+			
+					Auction selectedAuction = auctions.get(i);
+					
+					if (selectedAuction.getStartDate().after(new Date()))
+						auction = selectedAuction;
+					else 
+						System.out.println("Leil√£o j√° iniciou, escolha outro:");
+				} else {
+					System.out.println("Nenhum leil√£o dispon√≠vel no momento. Aguarde um instante.");
+					broker.watchAuctions(auctionator);
+					mutex.wait();
 				}
-				System.out.println("=========================");
-		
-				int i = Integer.parseInt(br.readLine()) - 1;
-		
-				Auction selectedAuction = auctions.get(i);
-				
-				if (selectedAuction.getStartDate().after(new Date()))
-					auction = selectedAuction;
-				else 
-					System.out.println("Leil„o j· iniciou, escolha outro:");
-			} else {
-				System.out.println("Nenhum leil„o disponÌvel no momento. Aguarde um instante.");
-				mutex.wait();
 			}
 		}
 
 		long secondsRemaining = Math.abs(auction.getStartDate().getTime() - new Date().getTime()) / 1000;
-		System.out.printf("Aguarde. O leil„o ir· comeÁar em %s\n", formatTime(secondsRemaining));
+		System.out.printf("Aguarde. O leil√£o ir√° come√ßar em %s\n", Util.formatTime(secondsRemaining));
 		broker.participate(auctionator, auction);
+		System.out.printf("Leil√£o iniciado\n");
 		
 		Bid bid = new Bid();
 		bid.setAuction(auction);
 		bid.setAuctionator(auctionator);
-		
+
+        System.out.print("Insira seus lances:\n");
 		while (true) {
-	        try {
-		        System.out.print("Insira seu lance: ");
-	            bid.setValue(Float.parseFloat(br.readLine()));
-	            broker.bid(bid);
-	        } catch (Exception e){
-	            System.err.println("Formato inv·lido.");
-	        }
+            bid.setValue(Float.parseFloat(br.readLine()));
+            broker.bid(bid);
 		}
-	}
-
-	private static String formatTime(long ts) {
-		long[] tokens = new long[4];
-
-		long s = ts % 60;
-		long tm = ts / 60;
-		long m = tm % 60;
-		long th = m / 60;
-		long h = th % 24;
-		long d = th / 24;
-
-		String days = (d == 0) ? "" : (d == 1) ? "1 dia, " : String.format("%d dias, ", d);
-		String hours = (h == 0) ? "" : (h == 1) ? "1 hora, " : String.format("%d horas, ", h);
-		String minutes = (m == 0) ? "" : (m == 1) ? "1 minuto, " : String.format("%d minutos, ", m);
-		String seconds = (s == 0) ? "" : (s == 1) ? "1 segundo, " : String.format("%d segundos, ", s);
-
-		String time = days + hours + minutes + seconds;
-
-		// remove a ˙tlima vÌrgula
-		return replaceLast(replaceLast(time, ",", ""), ",", " e");
-	}
-	
-	private static String replaceLast(String text, String substring, String replacement)
-	{
-	  int i = text.lastIndexOf(substring);
-	  if (i == -1)
-	    return text;
-	  else
-		  return text.substring(0, i) + replacement + text.substring(i + substring.length());
 	}
 }

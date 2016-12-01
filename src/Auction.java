@@ -12,7 +12,7 @@ public class Auction implements Serializable {
 	private String id;
 	private String product;
 	private Bid startBid;
-	private Bid currentBid;
+	//private Bid currentBid;
 	private Date startDate;
 	private Date endDate;
 
@@ -39,14 +39,14 @@ public class Auction implements Serializable {
 	public Bid getStartBid() {
 		return startBid;
 	}
-
-	public void setCurrentBid(Bid currentBid) {
-		this.currentBid = currentBid;
-	}
-
-	public Bid getCurrentBid() {
-		return currentBid;
-	}
+//
+//	public void setCurrentBid(Bid currentBid) {
+//		this.currentBid = currentBid;
+//	}
+//
+//	public Bid getCurrentBid() {
+//		return currentBid;
+//	}
 
 	public void setStartDate(Date startDate) {
 		this.startDate = startDate;
@@ -62,24 +62,5 @@ public class Auction implements Serializable {
 
 	public Date getEndDate() {
 		return endDate;
-	}
-
-	public static Auction fromBytes(byte[] data) throws IOException, ClassNotFoundException {
-		ByteArrayInputStream bis = new ByteArrayInputStream(data);
-		ObjectInput in = new ObjectInputStream(bis);
-		Auction auction = (Auction)in.readObject();
-		bis.close();
-		in.close();
-		return auction;
-	}
-
-	public static byte[] toBytes(Auction auction) throws IOException {
-		ByteArrayOutputStream bos = new ByteArrayOutputStream();
-		ObjectOutput out = new ObjectOutputStream(bos);
-		out.writeObject(auction);
-  		byte[] byteArray = bos.toByteArray();
-		out.flush();
-  		bos.close();
-  		return byteArray;
 	}
 }

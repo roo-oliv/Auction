@@ -17,13 +17,15 @@ import org.apache.zookeeper.ZooDefs.Ids;
 import org.apache.zookeeper.ZooKeeper;
 
 // zookeeper connector
-public class Broker {
+public class Broker implements Watcher {
 	static final String AUCTIONS_PATH = "/auctions";
 	
 	private String host;
-	private String znode;
 
 	private ZooKeeper zk;
+	// a auction e a fila são criadas nos métodos participate e createAuction
+	private BidQueue bidQueue;
+	private Auction auction;
    	final CountDownLatch connectedSignal = new CountDownLatch(1);
 
 	public boolean connected = true;
@@ -57,14 +59,13 @@ public class Broker {
 		List<Auction> auctions = new ArrayList<Auction>();
 
 		for (String child : children) {
-			if (child.startsWith("auction")) {
-				byte[] data = zk.getData(AUCTIONS_PATH + "/" + child, false, null);
-				Auction auction = Converter.fromBytes(data);
-				
-				if (auction.getStartDate().after(new Date())) {
-					auction.setId(child);
-					auctions.add(auction);
-				}
+			byte[] data = zk.getData(AUCTIONS_PATH + "/" + child, false, null);
+			Auction auction = Converter.fromBytes(data);
+			
+			if (auction.getStartDate().after(new Date())) {
+				// seta o valor pois o id foi gerado depois do nó ser criado
+				auction.setId(AUCTIONS_PATH + "/" + child);
+				auctions.add(auction);
 			}
 		}
 
@@ -73,9 +74,14 @@ public class Broker {
 	
 	// cria um znode sequencial no caminho do produto selecionado
 	public void participate(Auctionator auctionator, Auction auction) throws KeeperException, InterruptedException, IOException {
-		String auctionatorsPath = AUCTIONS_PATH + "/" + auction.getId() + "/auctionators";
-		String auctionatorPath =  zk.create(auctionatorsPath + "/", Converter.toBytes(auctionator), Ids.OPEN_ACL_UNSAFE, CreateMode.EPHEMERAL_SEQUENTIAL);
+		this.auction = auction;
+		bidQueue = new BidQueue(zk, auction);
+		
+		String auctionatorsPath = auction.getId() + "/auctionators";
+		String auctionatorPath = zk.create(auctionatorsPath + "/", Converter.toBytes(auctionator), Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT_SEQUENTIAL);
 		auctionator.setId(auctionatorPath);
+		
+		zk.getData(auction.getId() + "/bestbid", this, null);
 		
 		AuctionBarrier barrier = new AuctionBarrier(auction);
 		barrier.enter();
@@ -86,48 +92,54 @@ public class Broker {
 		if (zk.exists(AUCTIONS_PATH, false) == null) 
 			zk.create(AUCTIONS_PATH, null, Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
 
-		String auctionPath = zk.create(AUCTIONS_PATH + "/auction", Auction.toBytes(auction), Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT_SEQUENTIAL);
+		String auctionPath = zk.create(AUCTIONS_PATH + "/", Converter.toBytes(auction), Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT_SEQUENTIAL);
 
+		zk.create(auctionPath + "/bestbid", Converter.toBytes(auction.getStartBid()), Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
 		zk.create(auctionPath + "/auctionators", null, Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
-		zk.create(auctionPath + "/bids", null, Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
 		auction.setId(auctionPath);
-	}
-	
-	public void updateAuction(Auction auction) throws KeeperException, InterruptedException, IOException {
-		zk.setData(auction.getId(), Auction.toBytes(auction), zk.exists(auction.getId(), true).getVersion());
-	}
-	
-	public Auction watchAuction(String path, Watcher watcher) throws KeeperException, InterruptedException, ClassNotFoundException, IOException {
-		byte[] data = zk.getData(path, watcher, null);
-		return Auction.fromBytes(data);
-	}
-	
-	public List<Bid> watchBids(Auctioneer auctioneer) throws KeeperException, InterruptedException, ClassNotFoundException, IOException {
-		List<Bid> bids = new ArrayList<Bid>(); 
 		
-		// watcher quando for adicionado um novo filho
-		List<String> children = zk.getChildren(auctioneer.getAuction().getId(), auctioneer);
-		for (String child : children) {
-			// watcher quando for alterado
-			byte[] data = zk.getData(auctioneer.getAuction().getId() + "/" + child, auctioneer, null);
-			bids.add(Bid.fromBytes(data));
-		}
+		this.auction = auction;
+		bidQueue = new BidQueue(zk, auction);
 		
-		return bids;
+		AuctionBarrier barrier = new AuctionBarrier(auction);
+		barrier.enter();
+	}
+	
+	// watchers
+	public void watchAuctions(Auctionator auctionator) throws KeeperException, InterruptedException {
+		zk.getChildren(AUCTIONS_PATH, auctionator, null);
 	}
 
 	public void bid(Bid bid) throws KeeperException, InterruptedException, ClassNotFoundException, IOException {
-		zk.setData(bid.getId(), Bid.toBytes(bid), zk.exists(bid.getId(), true).getVersion());
-//		Auction auction = Auction.fromBytes(zk.getData(bid.getAuction().getId(), false, null));
-//
-//		if (bid.getValue() > auction.getCurrentBid().getValue()) {
-//			zk.setData(bid.getId(), Bid.toBytes(bid), zk.exists(bid.getId(), true).getVersion());
-//			auction.setCurrentBid(bid);
-//			zk.setData(auction.getId(), Auction.toBytes(auction), zk.exists(auction.getId(), true).getVersion());
-//			System.out.println("bid: " + auction.getCurrentBid().getValue());
-//			return true;
-//		} else {
-//			return false;
-//		}
+		Bid bestBid = Converter.fromBytes(zk.getData(bid.getAuction().getId() + "/bestbid", false, null));
+	
+		if (bid.getValue() > bestBid.getValue()) {
+			bidQueue.add(bid);
+		}
+	}
+	
+	public Bid pollBid() throws ClassNotFoundException, KeeperException, InterruptedException, IOException {
+		return bidQueue.poll();
+	}
+	
+	public Bid getBestBid() throws ClassNotFoundException, IOException, KeeperException, InterruptedException {
+		return Converter.fromBytes(zk.getData(auction.getId() + "/bestbid", false, null));
+	}
+	
+	public void updateBestBid(Bid bid) throws KeeperException, InterruptedException, IOException {
+		String bestBidPath = auction.getId() + "/bestbid";
+		zk.setData(bestBidPath, Converter.toBytes(bid), zk.exists(bestBidPath, true).getVersion());
+	}
+
+	@Override
+	public void process(WatchedEvent e) {
+		Bid bestBid;
+		try {
+			bestBid = Converter.fromBytes(zk.getData(auction.getId() + "/bestbid", this, null));
+			System.out.printf("Melhor lance: R$ %.2f\n", bestBid.getValue());
+		} catch (ClassNotFoundException | IOException | KeeperException | InterruptedException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
 	}
 }
