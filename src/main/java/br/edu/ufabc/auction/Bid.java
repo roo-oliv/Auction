@@ -1,6 +1,8 @@
 package br.edu.ufabc.auction;
 
-public class Bid {
+import java.io.Serializable;
+
+public class Bid implements Serializable {
     private final float value;
     private final Long buyerId;
     private final Long auctionId;

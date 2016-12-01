@@ -118,7 +118,18 @@ public class Broker implements Watcher {
         bidBuilder.value(value);
         Bid bid = bidBuilder.build();
 
-        Bid bestBid = Converter.fromBytes(zk.getData(this.auction.getId() + "/bestbid", false, null));
+        if (zk.exists(this.auction.getId() + "/bestbid", false) == null) {
+            bidQueue.add(bid);
+            return;
+        }
+        Bid bestBid;
+        try {
+            bestBid = Converter.fromBytes(zk.getData(this.auction.getId() + "/bestbid", false, null));
+        } catch (ClassCastException e) {
+            Bid.Builder builder = new Bid.Builder();
+            builder.value(auction.getStartBid());
+            bestBid = builder.build();
+        }
 
         if (bid.getValue() > bestBid.getValue()) {
             bidQueue.add(bid);
@@ -130,7 +141,11 @@ public class Broker implements Watcher {
     }
 
     public Bid getBestBid() throws ClassNotFoundException, IOException, KeeperException, InterruptedException {
-        return Converter.fromBytes(zk.getData(auction.getId() + "/bestbid", false, null));
+        try {
+            return Converter.fromBytes(zk.getData(auction.getId() + "/bestbid", false, null));
+        } catch (ClassCastException e) {
+            return null;
+        }
     }
 
     public void updateBestBid(Bid bid) throws KeeperException, InterruptedException, IOException {

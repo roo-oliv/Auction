@@ -52,7 +52,7 @@ public class Seller {
             Bid bid = broker.pollBid();
             Bid bestBid = broker.getBestBid();
 
-            if (bid.getValue() > bestBid.getValue()) {
+            if (bestBid==null || bid.getValue() > bestBid.getValue()) {
                 broker.updateBestBid(bid);
                 System.out.printf("Melhor lance: %s - R$ %.2f\n", bid.getBuyerId(), bid.getValue());
             }
